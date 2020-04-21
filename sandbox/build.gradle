@@ -1,3 +1,15 @@
 apply plugin: 'java'
 apply plugin: 'application'
 mainClassName = "MyFirstProgram"
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile 'org.testng:testng:7.1.0'
+    compile 'org.decimal4j:decimal4j:1.0.3'
+}
+
+test {
+    useTestNG()
+}
