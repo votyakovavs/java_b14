@@ -1,6 +1,6 @@
 package model;
 
-public class NewRecordData {
+public class ContactData {
   private final String firstName;
   private final String middleName;
   private final String lastName;
@@ -14,7 +14,7 @@ public class NewRecordData {
   private final String theFax;
   private final String eMail;
 
-  public NewRecordData(String firstName, String middleName, String lastName, String nickName, String theTitle, String theCompany, String theAddress, String theHome, String theMobile, String theWork, String theFax, String eMail) {
+  public ContactData(String firstName, String middleName, String lastName, String nickName, String theTitle, String theCompany, String theAddress, String theHome, String theMobile, String theWork, String theFax, String eMail) {
     this.firstName = firstName;
     this.middleName = middleName;
     this.lastName = lastName;
