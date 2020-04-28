@@ -10,6 +10,6 @@ public class AddContactTests extends TestBase{
     app.getNavigationHelper().goToAddNewPage();
     app.getContactHelper().fillContact(new ContactData("Name", "MiddleName", "Last", "Nick", "Title", "Company", "Address", "Home", "Mobile", "Work", "Fax", "e-mail"));
     app.getContactHelper().submitContact();
-    app.getNavigationHelper().goToHomePage();
+    app.getNavigationHelper().returnToHomePage();
   }
 }

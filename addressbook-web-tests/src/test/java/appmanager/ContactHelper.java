@@ -28,4 +28,12 @@ public class ContactHelper extends HelperBase {
     type(By.name("fax"), contactData.getTheFax());
     type(By.name("email"), contactData.geteMail());
   }
+
+  public void selectContact(String id) {
+    click(By.id(id));
+  }
+
+  public void deleteSelectedContacts (){
+    click(By.xpath("//input[@value='Delete']"));
+  }
 }

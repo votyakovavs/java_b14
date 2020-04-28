@@ -30,7 +30,9 @@ public class ApplicationManager {
     wd.findElement(By.name("user"));
     wd.quit();
   }
-
+  public void allert() {
+    wd.switchTo().alert().accept();
+  }
   public GroupHelper getGroupHelper() {
     return groupHelper;
   }
@@ -42,4 +44,5 @@ public class ApplicationManager {
   public ContactHelper getContactHelper() {
     return contactHelper;
   }
+
 }
