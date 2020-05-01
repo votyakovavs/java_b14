@@ -29,18 +29,26 @@ public class ContactHelper extends HelperBase {
     type(By.name("email"), contactData.geteMail());
   }
 
-  public void selectContact(String id) {
-    click(By.id(id));
+  /*  public void selectContact(String id) {
+      click(By.id(id));
+    }*/
+  public void selectContactVer2() {
+    click(By.name("selected[]"));
   }
 
   public void deleteSelectedContacts() {
     click(By.xpath("//input[@value='Delete']"));
   }
 
-  public void initEditContact(String numOfContact) {
+  /*public void initEditContact(String numOfContact) {
     click(By.xpath("(//img[@alt='Edit'])["+numOfContact+"]"));
+  }*/
+  public void initEditContactVer2() {
+    click(By.xpath("//img[@alt='Edit']"));
   }
+
   public void submitContactModification() {
     click(By.name("update"));
   }
+
 }
