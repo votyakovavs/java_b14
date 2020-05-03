@@ -3,7 +3,7 @@ package ru.stqa.pft.sandbox;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class PointTest {
+public class PointTests {
   @Test
   public void testDistance1() {
     Point p1 = new Point(-2, 4);
