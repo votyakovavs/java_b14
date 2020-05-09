@@ -3,6 +3,8 @@ package appmanager;
 import model.ContactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 public class ContactHelper extends HelperBase {
 
@@ -14,7 +16,7 @@ public class ContactHelper extends HelperBase {
     click(By.name("submit"));
   }
 
-  public void fillContact(ContactData contactData) {
+  public void fillContact(ContactData contactData, boolean creation) {
     type(By.name("firstname"), contactData.getFirstName());
     type(By.name("middlename"), contactData.getMiddleName());
     type(By.name("lastname"), contactData.getLastName());
@@ -27,6 +29,11 @@ public class ContactHelper extends HelperBase {
     type(By.name("work"), contactData.getTheWork());
     type(By.name("fax"), contactData.getTheFax());
     type(By.name("email"), contactData.geteMail());
+    if (creation) {
+      new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getTheGroup());
+    } else {
+      Assert.assertFalse(isElementPresent(By.name("new_group")));
+    }
   }
 
   /*  public void selectContact(String id) {
