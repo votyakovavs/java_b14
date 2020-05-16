@@ -16,7 +16,7 @@ public class Collections {
     for (String l : langs) {
       System.out.println("Я хочу выучить " + l);
     }
-    
+
     /*List<String> languages = new ArrayList<String>();
     languages.add("Java");
     languages.add("C#");
