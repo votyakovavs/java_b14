@@ -3,9 +3,8 @@ package model;
 import java.util.Objects;
 
 public class GroupData {
+
   private Integer id;
-
-
   private final String name;
   private final String header;
   private final String footer;
