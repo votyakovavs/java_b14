@@ -1,7 +1,6 @@
 package appmanager;
 
 import model.ContactData;
-import model.GroupData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -86,6 +85,18 @@ public class ContactHelper extends HelperBase {
     returnToHomePage();
   }
 
+  public void delContact(int index) {
+    selectContactVer2(index);
+    deleteSelectedContacts();
+  }
+
+  public void modifyContact(int index, ContactData contact) {
+    initEditContactVer2(index);
+    fillContact(contact, false);
+    submitContactModification();
+    returnToHomePage();
+  }
+
   public boolean isThereAContact() {
     return isElementPresent(By.name("selected[]"));
   }
@@ -98,7 +109,7 @@ public class ContactHelper extends HelperBase {
       String lastName = cells.get(2).getText();
       String name = cells.get(1).getText();
       Integer id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-      ContactData contact = new ContactData(id, lastName, null, name, null, null, null, null,null, null, null, null, null, null);
+      ContactData contact = new ContactData(id, lastName, null, name, null, null, null, null, null, null, null, null, null, null);
       contacts.add(contact);
     }
     return contacts;
