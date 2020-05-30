@@ -3,54 +3,20 @@ package model;
 import java.util.Objects;
 
 public class ContactData {
-  private final Integer id;
-  private final String firstName;
-  private final String middleName;
-  private final String lastName;
-  private final String nickName;
-  private final String theTitle;
-  private final String theCompany;
-  private final String theAddress;
-  private final String theHome;
-  private final String theMobile;
-  private final String theWork;
-  private final String theFax;
-  private final String eMail;
-  private final String theGroup;
-
-  public ContactData(String firstName, String middleName, String lastName, String nickName, String theTitle, String theCompany, String theAddress, String theHome, String theMobile, String theWork, String theFax, String eMail, String theGroup) {
-    this.id = Integer.MAX_VALUE;
-    this.firstName = firstName;
-    this.middleName = middleName;
-    this.lastName = lastName;
-    this.nickName = nickName;
-    this.theTitle = theTitle;
-    this.theCompany = theCompany;
-    this.theAddress = theAddress;
-    this.theHome = theHome;
-    this.theMobile = theMobile;
-    this.theWork = theWork;
-    this.theFax = theFax;
-    this.eMail = eMail;
-    this.theGroup = theGroup;
-  }
-
-  public ContactData(Integer id, String firstName, String middleName, String lastName, String nickName, String theTitle, String theCompany, String theAddress, String theHome, String theMobile, String theWork, String theFax, String eMail, String theGroup) {
-    this.id = id;
-    this.firstName = firstName;
-    this.middleName = middleName;
-    this.lastName = lastName;
-    this.nickName = nickName;
-    this.theTitle = theTitle;
-    this.theCompany = theCompany;
-    this.theAddress = theAddress;
-    this.theHome = theHome;
-    this.theMobile = theMobile;
-    this.theWork = theWork;
-    this.theFax = theFax;
-    this.eMail = eMail;
-    this.theGroup = theGroup;
-  }
+  private Integer id = Integer.MAX_VALUE;
+  private String firstName;
+  private String middleName;
+  private String lastName;
+  private String nickName;
+  private String title;
+  private String company;
+  private String address;
+  private String home;
+  private String mobile;
+  private String work;
+  private String fax;
+  private String eMail;
+  private String group;
 
   public Integer getId() {
     return id;
@@ -72,40 +38,110 @@ public class ContactData {
     return nickName;
   }
 
-  public String getTheTitle() {
-    return theTitle;
+  public String getTitle() {
+    return title;
   }
 
-  public String getTheCompany() {
-    return theCompany;
+  public String getCompany() {
+    return company;
   }
 
-  public String getTheAddress() {
-    return theAddress;
+  public String getAddress() {
+    return address;
   }
 
-  public String getTheHome() {
-    return theHome;
+  public String getHome() {
+    return home;
   }
 
-  public String getTheMobile() {
-    return theMobile;
+  public String getMobile() {
+    return mobile;
   }
 
-  public String getTheWork() {
-    return theWork;
+  public String getWork() {
+    return work;
   }
 
-  public String getTheFax() {
-    return theFax;
+  public String getFax() {
+    return fax;
   }
 
-  public String geteMail() {
+  public String getEmail() {
     return eMail;
   }
 
-  public String getTheGroup() {
-    return theGroup;
+  public String getGroup() {
+    return group;
+  }
+
+  public ContactData withId(Integer id) {
+    this.id = id;
+    return this;
+  }
+
+  public ContactData withFirstName(String firstName) {
+    this.firstName = firstName;
+    return this;
+  }
+
+  public ContactData withMiddleName(String middleName) {
+    this.middleName = middleName;
+    return this;
+  }
+
+  public ContactData withLastName(String lastName) {
+    this.lastName = lastName;
+    return this;
+  }
+
+  public ContactData withNickName(String nickName) {
+    this.nickName = nickName;
+    return this;
+  }
+
+  public ContactData withTitle(String title) {
+    this.title = title;
+    return this;
+  }
+
+  public ContactData withCompany(String company) {
+    this.company = company;
+    return this;
+  }
+
+  public ContactData withAddress(String address) {
+    this.address = address;
+    return this;
+  }
+
+  public ContactData withHome(String home) {
+    this.home = home;
+    return this;
+  }
+
+  public ContactData withMobile(String mobile) {
+    this.mobile = mobile;
+    return this;
+  }
+
+  public ContactData withWork(String work) {
+    this.work = work;
+    return this;
+  }
+
+  public ContactData withFax(String fax) {
+    this.fax = fax;
+    return this;
+  }
+
+  public ContactData withEmail(String eMail) {
+    this.eMail = eMail;
+    return this;
+  }
+
+  public ContactData withGroup(String group) {
+    this.group = group;
+    return this;
   }
 
   @Override

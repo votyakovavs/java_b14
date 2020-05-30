@@ -7,15 +7,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
 
-import java.util.concurrent.TimeUnit;
-
 public class ApplicationManager {
+  private final String browser;
   WebDriver wd;
-
   private ContactHelper contactHelper;
   private NavigationHelper navigationHelper;
   private GroupHelper groupHelper;
-  private final String browser;
 
   public ApplicationManager(String browser) {
     this.browser = browser;
