@@ -7,8 +7,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ContactHelper extends HelperBase {
 
@@ -40,16 +41,16 @@ public class ContactHelper extends HelperBase {
     }
   }
 
-  public void selectContactVer2(int index) {
-    wd.findElements(By.name("selected[]")).get(index).click();
+  public void selectContactById(int id) {
+    wd.findElement(By.id("" + id + "")).click();
   }
 
   public void deleteSelectedContacts() {
     click(By.xpath("//input[@value='Delete']"));
   }
 
-  public void initEditContactVer2(int index) {
-    wd.findElements(By.xpath("//img[@alt='Edit']")).get(index).click();
+  public void initEditContactById(int id) {
+    wd.findElement(By.xpath("//a[@href='edit.php?id=" + id + "']")).click();
   }
 
   public void submitContactModification() {
@@ -79,20 +80,20 @@ public class ContactHelper extends HelperBase {
     returnToHomePage();
   }
 
-  public void del(int index) {
-    selectContactVer2(index);
+  public void delete(ContactData contact) {
+    selectContactById(contact.getId());
     deleteSelectedContacts();
   }
 
-  public void modify(int index, ContactData contact) {
-    initEditContactVer2(index);
+  public void modify(ContactData contact) {
+    initEditContactById(contact.getId());
     fillContact(contact, false);
     submitContactModification();
     returnToHomePage();
   }
 
-  public List<ContactData> list() {
-    List<ContactData> contacts = new ArrayList<ContactData>();
+  public Set<ContactData> all() {
+    Set<ContactData> contacts = new HashSet<ContactData>();
     List<WebElement> elements = wd.findElements(By.name("entry"));
     for (WebElement element : elements) {
       List<WebElement> cells = element.findElements(By.tagName("td"));
