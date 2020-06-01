@@ -8,9 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class ContactHelper extends HelperBase {
 
@@ -78,31 +76,39 @@ public class ContactHelper extends HelperBase {
     goToAddNewPage();
     fillContact(contactData, creation);
     submitContact();
+    contactCache = null;
     returnToHomePage();
   }
 
   public void delete(ContactData contact) {
     selectContactById(contact.getId());
     deleteSelectedContacts();
+    contactCache = null;
   }
 
   public void modify(ContactData contact) {
     initEditContactById(contact.getId());
     fillContact(contact, false);
     submitContactModification();
+    contactCache = null;
     returnToHomePage();
   }
 
+  private Contacts contactCache = null;
+
   public Contacts all() {
-    Contacts contacts = new Contacts();
+    if (contactCache != null) {
+      return new Contacts(contactCache);
+    }
+    Contacts contactCache = new Contacts();
     List<WebElement> elements = wd.findElements(By.name("entry"));
     for (WebElement element : elements) {
       List<WebElement> cells = element.findElements(By.tagName("td"));
       String lastName = cells.get(1).getText();
       String name = cells.get(2).getText();
       Integer id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-      contacts.add(new ContactData().withId(id).withLastName(lastName).withFirstName(name));
+      contactCache.add(new ContactData().withId(id).withLastName(lastName).withFirstName(name));
     }
-    return contacts;
+    return new Contacts(contactCache);
   }
 }
