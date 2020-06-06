@@ -49,8 +49,18 @@ public class ContactHelper extends HelperBase {
   }
 
   public void initEditContactById(int id) {
-    wd.findElement(By.xpath("//a[@href='edit.php?id=" + id + "']")).click();
+    wd.findElement(By.cssSelector(String.format("a[href='edit.php?id=%s'", id))).click();
   }
+
+  /*public void longInitEditContactById(int id) {
+    WebElement checkbox = wd.findElement(By.cssSelector(String.format("//input[@value='%s']", id)));
+    WebElement row = checkbox.findElement(By.xpath("./../.."));
+    List<WebElement> cells = row.findElements(By.tagName("td"));
+    cells.get(7).findElement(By.tagName("a")).click();
+
+    wd.findElement(By.xpath(String.format("//input[@value='%s']/../../td[8]/a", id))).click();
+    wd.findElement(By.xpath(String.format(".//tr[input[@value='%s']]/td[8]/a", id))).click();
+  }*/
 
   public void submitContactModification() {
     click(By.name("update"));
@@ -106,13 +116,28 @@ public class ContactHelper extends HelperBase {
       List<WebElement> cells = element.findElements(By.tagName("td"));
       String lastName = cells.get(1).getText();
       String name = cells.get(2).getText();
+      String allPhones = cells.get(5).getText();
+      String[] phones = allPhones.split("\n");
       Integer id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-      contactCache.add(new ContactData().withId(id).withLastName(lastName).withFirstName(name));
+      contactCache.add(new ContactData().withId(id).withLastName(lastName).withFirstName(name)
+              .withHome(phones[0]).withMobile(phones[1]).withWork(phones[2]));
     }
     return new Contacts(contactCache);
   }
 
   public int count() {
     return wd.findElements(By.name("entry")).size();
+  }
+
+  public ContactData infoFromEditForm(ContactData contact) {
+    initEditContactById(contact.getId());
+    String firstName = wd.findElement(By.name("firstname")).getAttribute("value");
+    String lastName = wd.findElement(By.name("lastname")).getAttribute("value");
+    String home = wd.findElement(By.name("home")).getAttribute("value");
+    String mobile = wd.findElement(By.name("mobile")).getAttribute("value");
+    String work = wd.findElement(By.name("work")).getAttribute("value");
+    wd.navigate().back();
+    return new ContactData().withId(contact.getId()).withFirstName(firstName).withLastName(lastName).
+            withHome(home).withMobile(mobile).withWork(work);
   }
 }

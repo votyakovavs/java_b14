@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class ModifyContactTests extends TestBase {
+public class ContactPhoneTest extends TestBase {
   @BeforeMethod
   public void ensurePreconditions() {
     app.goTo().HomePage();
@@ -18,14 +18,18 @@ public class ModifyContactTests extends TestBase {
   }
 
   @Test
-  public void testAddContact() {
+  public void testContactPhone() {
     Contacts before = app.contact().all();
-    ContactData modifiedContact = before.iterator().next();
-    ContactData contact = new ContactData().withId(modifiedContact.getId()).withFirstName("Name").withMiddleName("MiddleName").withLastName("Last").withNickName("Nick").withTitle("Title").withCompany("Company").withAddress("Address").withHome("12345").withMobile("67859").withWork("154456").withFax("Fax").withEmail("e-mail");
-    app.contact().modify(contact);
+    ContactData contact = app.contact().all().iterator().next();
+    ContactData contactInfoFromEditForm = app.contact().infoFromEditForm(contact);
+
     assertThat(app.contact().count(), equalTo(before.size()));
-    Contacts after = app.contact().all();
-    assertThat(after, equalTo(before.without(modifiedContact).withAdded(contact)));
+    assertThat(contact.getHome(), equalTo(cleaned(contactInfoFromEditForm.getHome())));
+    assertThat(contact.getMobile(), equalTo(cleaned(contactInfoFromEditForm.getMobile())));
+    assertThat(contact.getWork(), equalTo(cleaned(contactInfoFromEditForm.getWork())));
   }
 
+  public String cleaned(String phone){
+    return phone.replaceAll("\\s","").replaceAll("[-()]","");
+  }
 }
