@@ -15,11 +15,31 @@ public class ContactData {
   private String mobile;
   private String work;
   private String fax;
-  private String eMail;
+  private String allEmails;
   private String group;
+  private String allPhones;
+  private String eMail;
+  private String eMail2;
+  private String eMail3;
+
+  public String getEmail() {
+    return eMail;
+  }
+
+  public String getEmail2() {
+    return eMail2;
+  }
+
+  public String getEmail3() {
+    return eMail3;
+  }
 
   public Integer getId() {
     return id;
+  }
+
+  public String getAllPhones() {
+    return allPhones;
   }
 
   public String getFirstName() {
@@ -66,12 +86,37 @@ public class ContactData {
     return fax;
   }
 
-  public String getEmail() {
-    return eMail;
+  public String getAllEmails() {
+    return allEmails;
   }
 
   public String getGroup() {
     return group;
+  }
+
+  public ContactData withEmail2(String eMail2) {
+    this.eMail2 = eMail2;
+    return this;
+  }
+
+  public ContactData withEmail(String eMail) {
+    this.eMail = eMail;
+    return this;
+  }
+
+  public ContactData withEmail3(String eMail3) {
+    this.eMail3 = eMail3;
+    return this;
+  }
+
+  public ContactData withAllPhones(String allPhones) {
+    this.allPhones = allPhones;
+    return this;
+  }
+
+  public ContactData withAllEmails(String allEmails) {
+    this.allEmails = allEmails;
+    return this;
   }
 
   public ContactData withId(Integer id) {
@@ -131,11 +176,6 @@ public class ContactData {
 
   public ContactData withFax(String fax) {
     this.fax = fax;
-    return this;
-  }
-
-  public ContactData withEmail(String eMail) {
-    this.eMail = eMail;
     return this;
   }
 

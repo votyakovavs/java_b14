@@ -13,7 +13,12 @@ public class ContactDeletionTests extends TestBase {
   public void ensurePreconditions() {
     app.goTo().HomePage();
     if (app.contact().all().size() == 0) {
-      app.contact().create(new ContactData().withFirstName("Name").withMiddleName("MiddleName").withLastName("Last").withNickName("Nick").withTitle("Title").withCompany("Company").withAddress("Address").withHome("Home").withMobile("Mobile").withWork("Work").withFax("Fax").withEmail("e-mail").withGroup("test2"), true);
+      app.contact().create(new ContactData().withFirstName("Name").withMiddleName("MiddleName").withLastName("Last").withNickName("Nick").withTitle("Title").withCompany("Company")
+              .withAddress("Flat 54\n" +
+                      "65B Piekna Street\n" +
+                      "Warsaw\n" +
+                      "00-000\n")
+              .withHome("Home").withMobile("Mobile").withWork("Work").withFax("Fax").withEmail("e-mail").withGroup("test2"), true);
     }
   }
 
@@ -24,7 +29,7 @@ public class ContactDeletionTests extends TestBase {
     app.contact().delete(deletedContact);
     app.allert();
     app.goTo().HomePage();
-    assertThat(app.contact().count(), equalTo(before.size()-1));
+    assertThat(app.contact().count(), equalTo(before.size() - 1));
     Contacts after = app.contact().all();
     assertThat(after, equalTo(before.without(deletedContact)));
   }

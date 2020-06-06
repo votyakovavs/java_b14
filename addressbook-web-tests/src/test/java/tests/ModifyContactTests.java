@@ -13,7 +13,12 @@ public class ModifyContactTests extends TestBase {
   public void ensurePreconditions() {
     app.goTo().HomePage();
     if (app.contact().all().size() == 0) {
-      app.contact().create(new ContactData().withFirstName("Name").withMiddleName("MiddleName").withLastName("Last").withNickName("Nick").withTitle("Title").withCompany("Company").withAddress("Address").withHome("12345").withMobile("154456").withWork("67859").withFax("Fax").withEmail("e-mail").withGroup("test1"), true);
+      app.contact().create(new ContactData().withFirstName("Name").withMiddleName("MiddleName").withLastName("Last").withNickName("Nick").withTitle("Title").withCompany("Company")
+              .withAddress("Flat 54\n" +
+                      "65B Piekna Street\n" +
+                      "Warsaw\n" +
+                      "00-000\n")
+              .withHome("12345").withMobile("154456").withWork("67859").withFax("Fax").withEmail("e-mail").withGroup("test1"), true);
     }
   }
 
@@ -21,7 +26,12 @@ public class ModifyContactTests extends TestBase {
   public void testAddContact() {
     Contacts before = app.contact().all();
     ContactData modifiedContact = before.iterator().next();
-    ContactData contact = new ContactData().withId(modifiedContact.getId()).withFirstName("Name").withMiddleName("MiddleName").withLastName("Last").withNickName("Nick").withTitle("Title").withCompany("Company").withAddress("Address").withHome("12345").withMobile("67859").withWork("154456").withFax("Fax").withEmail("e-mail");
+    ContactData contact = new ContactData().withId(modifiedContact.getId()).withFirstName("Name").withMiddleName("MiddleName").withLastName("Last").withNickName("Nick").withTitle("Title").withCompany("Company")
+            .withAddress("Flat 54\n" +
+                    "65B Piekna Street\n" +
+                    "Warsaw\n" +
+                    "00-000\n")
+            .withHome("12345").withMobile("67859").withWork("154456").withFax("Fax").withEmail("e-mail");
     app.contact().modify(contact);
     assertThat(app.contact().count(), equalTo(before.size()));
     Contacts after = app.contact().all();
