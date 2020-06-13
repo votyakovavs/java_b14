@@ -24,8 +24,8 @@ public class MainPageTests extends TestBase {
               .withAddress("Flat 54\n" +
                       "65B Piekna Street\n" +
                       "Warsaw\n" +
-                      "00-000\n")
-              .withHome("12345").withMobile("154456").withWork("67859").withFax("Fax").withEmail("e-mail").withGroup("test1"), true);
+                      "00-000")
+              .withHome("12345").withMobile("154456").withWork("67859").withFax("Fax").withEmail("e-mail").withGroup("test2"), true);
     }
   }
 

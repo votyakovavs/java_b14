@@ -20,7 +20,7 @@ public class AddContactTests extends TestBase {
             .withAddress("Flat 54\n" +
                     "65B Piekna Street\n" +
                     "Warsaw\n" +
-                    "00-000\n")
+                    "00-000")
             .withHome("123").withMobile("456").withWork("789").withFax("101112").withEmail("e-mail").withGroup("test2").withPhoto(photo);
     app.contact().create(contact, true);
     assertThat(app.contact().count(), equalTo(before.size() + 1));
