@@ -33,7 +33,7 @@ public class AddContactTests extends TestBase {
       line = reader.readLine();
     }
     XStream xstream = new XStream();
-    xstream.processAnnotations(GroupData.class);
+    xstream.processAnnotations(ContactData.class);
     List<ContactData> contacts = (List<ContactData>) xstream.fromXML(xml);
     return contacts.stream().map((g) -> new Object[]{g}).collect(Collectors.toList()).iterator();
   }
@@ -54,7 +54,7 @@ public class AddContactTests extends TestBase {
     return contacts.stream().map((g) -> new Object[]{g}).collect(Collectors.toList()).iterator();
   }
 
-  @Test(dataProvider = "validContactsFromJson")
+  @Test(dataProvider = "validContactsFromXml")
   public void testAddContact(ContactData contact) {
     File photo = new File("src/test/resources/dog.jpg");
     contact = contact.withPhoto(photo);
