@@ -71,11 +71,11 @@ public class ContactDataGenerator {
   private void saveCsv(List<ContactData> contacts, File file) throws IOException {
     try (Writer writer = new FileWriter(file)) {
       for (ContactData contact : contacts) {
-        writer.write(String.format("%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s\n",
+        writer.write(String.format("%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s\n",
                 contact.getFirstName(), contact.getMiddleName(), contact.getLastName(),
                 contact.getNickName(), contact.getTitle(), contact.getCompany(),
                 contact.getAddress(), contact.getHome(), contact.getMobile(),
-                contact.getWork(), contact.getFax(), contact.getEmail(), contact.getGroup(), contact.getPhoto()));
+                contact.getWork(), contact.getFax(), contact.getEmail(), contact.getGroup()));
       }
     }
   }
