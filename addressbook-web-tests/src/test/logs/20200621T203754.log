@@ -1,0 +1,597 @@
+1696 [Test worker] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2292 [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2343 [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2486 [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2800 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.17.Final
+2810 [Test worker] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+12145 [Test worker] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+12146 [Test worker] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+12272 [Test worker] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+19658 [Test worker] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+19963 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+19971 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+20376 [Test worker] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+21969 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@190c4cd
+21971 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@190c4cd
+21974 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@190c4cd
+21977 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6da55724
+21987 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@603d7a9c
+21992 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@5ed0259c
+22009 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@556aaea8
+22011 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@556aaea8
+22092 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@556aaea8
+22360 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@12d56fd2
+22361 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@12d56fd2
+22373 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@12d56fd2
+22412 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@757c28e1
+22413 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@757c28e1
+22413 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@757c28e1
+22437 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@57683214
+22439 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@57683214
+22441 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@57683214
+22460 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@12f7abf7
+22467 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@12f7abf7
+22470 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@12f7abf7
+22505 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@398cc792
+22508 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@398cc792
+22513 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@398cc792
+22558 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@41dec98
+22565 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@41dec98
+22611 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@41dec98
+22621 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4280cf44
+22623 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4280cf44
+22628 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@534d5232
+22629 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@534d5232
+23469 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@3d56a370
+23471 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@3d56a370
+23476 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@13496d82
+23480 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2d0c563e
+23523 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@7f84aa6c
+23524 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@7f84aa6c
+23543 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@36df2f42
+23544 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@36df2f42
+23655 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@1e9cc727
+23658 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@1e9cc727
+23667 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@3883f7da
+23668 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@3883f7da
+23675 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@7f6a8f8
+23676 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@7f6a8f8
+23683 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@e269cf9
+23684 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@e269cf9
+23702 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@a8344e8
+23705 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@a8344e8
+23714 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@31f40faf
+23715 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@31f40faf
+23872 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1af4d92b
+23874 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1af4d92b
+23903 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@3b30b587
+23906 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@3b30b587
+23921 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@7163826f
+23926 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7163826f
+23942 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@6f3c726f
+23942 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6f3c726f
+23943 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6f3c726f
+23959 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@48fb0770
+23983 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@2071a91e
+23984 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2071a91e
+23987 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2071a91e
+23991 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@10b3407f
+23995 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@4a81d8d6
+24000 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@a585a73
+24002 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@a585a73
+24020 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@775edf8c
+24021 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@775edf8c
+24028 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@5c1aabfb
+24029 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5c1aabfb
+24042 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@6b051a05
+24043 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6b051a05
+24225 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2ad676a0
+24484 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2ad676a0
+24490 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@12d26785
+24495 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@620e2ba8
+24495 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@620e2ba8
+24496 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@620e2ba8
+25468 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1fdcfe18
+25473 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1fdcfe18
+25476 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1fdcfe18
+25524 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@4209c861
+25526 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@1ff0ca0b
+25535 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@57831a5f
+25536 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@57831a5f
+25537 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@57831a5f
+25542 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6aa9cec5
+25545 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6aa9cec5
+25549 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6aa9cec5
+25551 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@12bc9abb
+25566 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@6bb718d5
+25604 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@2df71d94
+25605 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2df71d94
+25642 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@471f1d1a
+25652 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@98f824c
+25652 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@98f824c
+25660 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@23fb79a4
+25662 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@23fb79a4
+25665 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3e13fd7e
+25674 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1a20a0f7
+25719 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@2a0f3538
+25872 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@43b41e4a
+25894 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@43b41e4a
+25900 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@343c5ba9
+25909 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5799452a
+25913 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@59260c7f
+25917 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3c04882d
+25920 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6ab36d17
+25923 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@779ed57e
+25926 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1e326a06
+25945 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6efdc0d
+26221 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+26275 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+26344 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+26345 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+26366 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+26377 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+26389 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+26412 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+26446 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+26503 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+26524 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+26526 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+26527 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+26552 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+26624 [Test worker] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+26650 [Test worker] DEBUG o.hibernate.orm.connections.pooling - No driver class specified
+26650 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [null] at URL [jdbc:mysql://localhost:3306/addressbook?useLegacyDatetimeCode=false&serverTimezone=UTC]
+26665 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=}
+26674 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+26704 [Test worker] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+26705 [Test worker] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+32355 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.4.11-MariaDB
+      major : 5
+      minor : 5
+32356 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.20 (Revision: afc0a13cd3c5a0bf57eaa809ee0ee6df1fd5ac9b)
+      major : 8
+      minor : 0
+32357 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2
+32923 [Test worker] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+33293 [Test worker] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+33324 [Test worker] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+34095 [Test worker] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+34117 [Test worker] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2d754d2e] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@7e7e6f59]
+34690 [Test worker] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: model.GroupData
+35116 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+35451 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData
+35474 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity model.GroupData on table group_list
+35941 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false}
+35974 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+35985 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.GroupData:id]
+36001 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+36011 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+36058 [Test worker] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(group_id)]), id, assigned, , ...)
+36062 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false}
+36062 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false
+36063 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.GroupData:footer]
+36064 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer
+36065 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer
+36082 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false}
+36083 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false
+36085 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.GroupData:header]
+36086 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header
+36089 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header
+36108 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false}
+36111 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+36113 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.GroupData:name]
+36113 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+36114 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+36166 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+36167 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer
+36168 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header
+36169 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+36175 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list]
+38086 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+38093 [Test worker] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+38095 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+38099 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+38101 [Test worker] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+38104 [Test worker] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+38106 [Test worker] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+38119 [Test worker] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+38123 [Test worker] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+38125 [Test worker] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+38129 [Test worker] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+38131 [Test worker] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+38133 [Test worker] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+38135 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+38141 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+38144 [Test worker] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+38146 [Test worker] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+38149 [Test worker] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+38151 [Test worker] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+38161 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+38163 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+38169 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+38171 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+38173 [Test worker] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+38175 [Test worker] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+38178 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+38182 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+38184 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+38188 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+38190 [Test worker] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+38193 [Test worker] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+38196 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+38200 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+38202 [Test worker] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+38204 [Test worker] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+38206 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : disabled
+38209 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : disabled
+38211 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : disabled
+38214 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : disabled
+40527 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+40531 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, dialect=org.hibernate.dialect.MySQL5Dialect, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, org.gradle.test.worker=9, java.class.path=C:\Users\4buhg\Documents\GitHub\java_b14\addressbook-web-tests\build\classes\java\test;C:\Users\4buhg\Documents\GitHub\java_b14\addressbook-web-tests\build\resources\test;C:\Users\4buhg\Documents\GitHub\java_b14\addressbook-web-tests\build\classes\java\main;C:\Users\4buhg\Documents\GitHub\java_b14\addressbook-web-tests\build\resources\main;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.testng\testng\7.1.0\b0bcea778fb2899aeb4014c558babea8833d180a\testng-7.1.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-java\3.141.59\e8e20b741299cb8ffedbd2925a3ab69d08b41063\selenium-java-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest\2.2\1820c0968dba3a11a1b30669bb1f01978a91dedc\hamcrest-2.2.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.beust\jcommander\1.78\a3927de9bd6f351429bcf763712c9890629d8f51\jcommander-1.78.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.thoughtworks.xstream\xstream\1.4.12\a668a33eb8d7c3ac728a3823cf4339ff762c75ca\xstream-1.4.12.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.immutables\gson\2.8.8\2b09be2b04daeb06937ad8f54e772a5a9b454539\gson-2.8.8.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.2.3\7c4f3c474fb2c041d8028740440937705ebb473a\logback-classic-1.2.3.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\8.0.20\d8d388e71c823570662a45dd33f4284141921280\mysql-connector-java-8.0.20.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.4.17.Final\3b90ecf6fe93a27a27de9671c9fb25d03ba3def7\hibernate-core-5.4.17.Final.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.inject\guice\4.1.0\faf9ee8ac09eafd1128091426dd367a8c0085d55\guice-4.1.0-no_aop.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.21\18775fdda48574784f40b47bf478ab0593f92e4d\snakeyaml-1.21.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-chrome-driver\3.141.59\67137314736c6a2f39a8aa59a562e9616ae5f77e\selenium-chrome-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-edge-driver\3.141.59\fc09c66f2d0b33b0816d770761ad1d599ef0df29\selenium-edge-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-driver\3.141.59\a99f2fe2a42747ed9809d4f62f51a9e1b336dde8\selenium-firefox-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-ie-driver\3.141.59\677b9b414a3a9bb2aeea89042a7b326edeb13a82\selenium-ie-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-opera-driver\3.141.59\6b11ed01182bfd8bb62ddeae34cf9eadd3cfc7ff\selenium-opera-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-safari-driver\3.141.59\a32b5b88f46ea4b0356079f0d2e2217543923046\selenium-safari-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-support\3.141.59\8735de5049acf0e761defc65ee5837d6541abaf5\selenium-support-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-remote-driver\3.141.59\1c79ca890c312ff9916bd95df4f0c5182ec722d8\selenium-remote-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-api\3.141.59\e006ffd3aa7841e6e9125d9e6691b3a6b7592b05\selenium-api-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.10.10\602a3da70f603752d3ce20a9997817d8dec39b51\byte-buddy-1.10.10.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-exec\1.3\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\commons-exec-1.3.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\25.0-jre\7319c34fa5866a85b6bad445adad69d402323129\guava-25.0-jre.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.11.0\75966e05a49046ca2ae734e5626f28837a8d1e82\okhttp-3.11.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.14.0\102d7be47241d781ef95f1581d414b0943053130\okio-1.14.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\xmlpull\xmlpull\1.1.3.1\2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa\xmlpull-1.1.3.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\xpp3\xpp3_min\1.1.4c\19d4e90b43059058f6e056f794f0ea4030d60b86\xpp3_min-1.1.4c.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.5\f645ed69d595b24d4cf8b3fbb64cc505bede8829\gson-2.8.5.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.2.3\864344400c3d4d92dfeb0a305dc87d953677c03c\logback-core-1.2.3.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.6.1\d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924\protobuf-java-3.6.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.0.Final\700aeedc4a2089816621948f0379e17cbd17d5db\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.2.Final\3789d00e859632e6c6206adc0c71625559e6e3b0\jboss-logging-3.3.2.Final.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.24.0-GA\d7466fc2e3af7c023e95c510f06448ad29b225b3\javassist-3.24.0-GA.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.1.3.Final\cd56603e39eb1421560b71daa584348ecfd9e0b8\jandex-2.1.3.Final.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.5.1\3fe0bed568c62df5e89f4f174c101eab25345b6c\classmate-1.5.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.1\dd6dda9da676a54c5b36ca2806ff95ee017d8738\jaxb-runtime-2.3.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.dom4j\dom4j\2.1.3\a75914155a9f5808963170ec20653668a2ffd2fd\dom4j-2.1.3.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\aopalliance\aopalliance\1.0\235ba8b489512805ac13a8f9ea77a1ca5ebe3e8\aopalliance-1.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-compat-qual\2.0.0\fc89b03860d11d6213d0154a62bcd1c2f69b9efa\checker-compat-qual-2.0.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.1.3\39b109f2cd352b2d71b52a3b5a1a9850e1dc304b\error_prone_annotations-2.1.3.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.1\ed28ded51a8b1c6b112568def5f4b455e6809019\j2objc-annotations-1.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.14\775b7e22fb10026eed3f86e8dc556dfafe35f2d5\animal-sniffer-annotations-1.14.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.1\a09d2c48d3285f206fafbffe0e50619284e92126\txw2-2.3.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.7\c197c86ceec7318b1284bffb49b54226ca774003\istack-commons-runtime-3.0.7.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8\8cc35f73da321c29973191f2cf143d29d26a1df7\stax-ex-1.8.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.15\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\FastInfoset-1.2.15.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, hbm2ddl.auto=validate, user.variant=, hibernate.com.mysql.jdbc.Driver=org.h2.Driver, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Yekaterinburg, os.name=Windows 10, java.vm.specification.version=1.8, sun.java.launcher=SUN_STANDARD, user.country=RU, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_251\jre\bin, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 9', sun.cpu.endian=little, user.home=C:\Users\4buhg, user.language=ru, java.specification.vendor=Oracle Corporation, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, org.gradle.native=false, java.home=C:\Program Files\Java\jdk1.8.0_251\jre, com.mysql.jdbc.Driver=org.h2.Driver, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes, hibernate.hbm2ddl.auto=validate, user.script=, connection.password=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_251-b08, user.name=Nicole, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/addressbook?useLegacyDatetimeCode=false&serverTimezone=UTC, connection.pool_size=1, file.encoding=windows-1251, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, show_sql=true, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\4buhg\AppData\Local\Temp\, java.version=1.8.0_251, user.dir=C:\Users\4buhg\Documents\GitHub\java_b14\addressbook-web-tests, os.arch=amd64, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@2755dac2, java.library.path=C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\Git\cmd;C:\Users\4buhg\AppData\Local\Microsoft\WindowsApps;C:\Users\4buhg\AppData\Local\GitHubDesktop\bin;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.251-b08, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, hibernate.connection.pool_size=1, connection.url=jdbc:mysql://localhost:3306/addressbook?useLegacyDatetimeCode=false&serverTimezone=UTC, java.class.version=52.0}
+40769 [Test worker] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+40776 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+40779 [Test worker] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2d754d2e] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@337b1412]
+41938 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [model.GroupData] is safe
+41940 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.GroupData
+43307 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [model.GroupData] is safe
+43308 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.GroupData
+49119 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: model.GroupData
+49119 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select group_id from group_list where group_id =?
+49126 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select groupdata_.group_id, groupdata_.group_footer as group_fo2_0_, groupdata_.group_header as group_he3_0_, groupdata_.group_name as group_na4_0_ from group_list groupdata_ where groupdata_.group_id=?
+49128 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into group_list (group_footer, group_header, group_name, group_id) values (?, ?, ?, ?)
+49129 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update group_list set group_footer=?, group_header=?, group_name=? where group_id=?
+49144 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from group_list where group_id=?
+49382 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4869ef6]
+49387 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+49390 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+49391 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+49393 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+49547 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+49600 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=model.GroupData, querySpaceUid=<gen:0>, path=model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_0_0_}
+
+49644 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity model.GroupData [NONE]: select groupdata0_.group_id as group_id1_0_0_, groupdata0_.group_footer as group_fo2_0_0_, groupdata0_.group_header as group_he3_0_0_, groupdata0_.group_name as group_na4_0_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+49647 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1fb65723]
+49647 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+49649 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+49650 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+49651 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+49652 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+49656 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=model.GroupData, querySpaceUid=<gen:0>, path=model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_0_0_}
+
+49658 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity model.GroupData [READ]: select groupdata0_.group_id as group_id1_0_0_, groupdata0_.group_footer as group_fo2_0_0_, groupdata0_.group_header as group_he3_0_0_, groupdata0_.group_name as group_na4_0_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+49835 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity model.GroupData: select groupdata0_.group_id as group_id1_0_0_, groupdata0_.group_footer as group_fo2_0_0_, groupdata0_.group_header as group_he3_0_0_, groupdata0_.group_name as group_na4_0_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+49843 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity model.GroupData: select groupdata0_.group_id as group_id1_0_0_, groupdata0_.group_footer as group_fo2_0_0_, groupdata0_.group_header as group_he3_0_0_, groupdata0_.group_name as group_na4_0_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+50784 [Test worker] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@ab256aa] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+51596 [Test worker] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+51608 [Test worker] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+51643 [Test worker] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+51643 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+51648 [Test worker] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+51649 [Test worker] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+51764 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@425af49a
+51773 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: c8c2880f-5017-4f96-b510-8871a041f3c6 (<unnamed>)
+51773 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+52657 [Test worker] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+52800 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+52801 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+52914 [Test worker] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@3c5d68e5
+53579 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from model.GroupData
+53616 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+53945 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'from'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[IDENT] Node: 'model'
+                \-[IDENT] Node: 'GroupData'
+
+54283 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+54409 [Test worker] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : model.GroupData (<no alias>) -> groupdata0_
+54414 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+54416 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} group_list groupdata0_ ) )
+54460 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+54513 [Test worker] DEBUG o.h.h.i.ast.util.JoinProcessor - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity GroupData): [group_list]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(model.GroupData)
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+54558 [Test worker] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [group_list groupdata0_]
+54559 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+54561 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (group_list)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'groupdata0_.group_id as group_id1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=model.GroupData}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'groupdata0_.group_footer as group_fo2_0_, groupdata0_.group_header as group_he3_0_, groupdata0_.group_name as group_na4_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[groupdata0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'group_list groupdata0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=model.GroupData}}
+
+54561 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+54594 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from model.GroupData
+54599 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select groupdata0_.group_id as group_id1_0_, groupdata0_.group_footer as group_fo2_0_, groupdata0_.group_header as group_he3_0_, groupdata0_.group_name as group_na4_0_ from group_list groupdata0_
+54602 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+54841 [Test worker] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_0_, groupdata0_.group_footer as group_fo2_0_, groupdata0_.group_header as group_he3_0_, groupdata0_.group_name as group_na4_0_ from group_list groupdata0_
+55425 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+55442 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#145]
+55483 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+55490 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#146]
+55492 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+55495 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#147]
+55500 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
+55511 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#148]
+55514 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
+55535 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#149]
+55545 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
+55549 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#150]
+55556 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
+55559 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#151]
+55563 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
+55565 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#152]
+55569 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
+55571 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#153]
+55575 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
+55577 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#154]
+55583 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 10
+55588 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#155]
+55589 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 11
+55590 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#156]
+55591 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 12
+55593 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#157]
+55595 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 13
+55596 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#158]
+55598 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 14
+55600 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#159]
+55602 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 15
+55603 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#161]
+55605 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 16
+55606 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#162]
+55610 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 17
+55611 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#163]
+55613 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 18
+55646 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#164]
+55648 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 19
+55649 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#165]
+55673 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 20
+55676 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#168]
+55690 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 21
+55694 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#172]
+55698 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 22
+55699 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#174]
+55711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#145]
+55742 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = 
+55744 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+55745 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = 
+55745 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+55746 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+55746 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+55754 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#145]
+55754 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#146]
+55755 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+55756 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+55758 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+55758 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+55759 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+55759 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+55760 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#146]
+55760 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#147]
+55760 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+55761 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+55761 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+55761 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+55762 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+55762 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+55762 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#147]
+55763 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#148]
+55763 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+55764 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+55764 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+55764 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+55765 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+55766 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+55766 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#148]
+55767 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#149]
+55769 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+55770 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+55770 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+55770 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+55770 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+55771 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+55772 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#149]
+55772 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#150]
+55773 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+55774 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+55774 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+55775 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+55775 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+55775 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+55776 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#150]
+55778 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#151]
+55778 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+55790 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+55791 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+55792 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+55792 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+55792 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+55794 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#151]
+55794 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#152]
+55794 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+55794 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+55795 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+55795 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+55795 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+55795 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+55796 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#152]
+55796 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#153]
+55796 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+55797 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+55798 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+55798 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+55798 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+55809 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+55809 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#153]
+55809 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#154]
+55978 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+55980 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+55981 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+55982 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+55984 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+55986 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+55988 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#154]
+55995 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#155]
+55998 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+55999 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56001 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+56002 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56003 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+56004 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56006 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#155]
+56009 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#156]
+56010 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+56011 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56012 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+56013 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56013 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+56015 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56019 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#156]
+56020 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#157]
+56030 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+56031 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56031 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+56032 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56080 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+56082 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56088 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#157]
+56091 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#158]
+56092 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+56092 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56106 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+56106 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56108 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+56110 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56112 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#158]
+56113 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#159]
+56114 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+56116 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56120 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+56120 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56121 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+56122 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56126 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#159]
+56130 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#161]
+56132 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+56140 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56146 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+56151 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56152 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+56154 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56156 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#161]
+56158 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#162]
+56160 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+56161 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56162 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+56162 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56163 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+56164 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56164 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#162]
+56166 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#163]
+56169 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+56170 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56172 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+56271 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56272 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+56273 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56274 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#163]
+56274 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#164]
+56275 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+56275 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56276 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+56277 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56278 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+56278 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56279 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#164]
+56279 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#165]
+56280 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+56281 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56281 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+56282 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56283 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+56285 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56286 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#165]
+56288 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#168]
+56289 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+56290 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56291 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+56292 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56292 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+56293 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56294 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#168]
+56294 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#172]
+56295 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+56295 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56296 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+56296 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56297 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+56297 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56298 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#172]
+56298 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#174]
+56299 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+56301 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+56302 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+56303 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+56303 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+56304 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+56304 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#174]
+56346 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+56424 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+56473 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+56555 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 23 objects
+56555 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+56648 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+56649 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=154}
+56651 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=153}
+56652 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=152}
+56653 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=151}
+56655 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=150}
+56655 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=149}
+56657 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=148}
+56658 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=147}
+56659 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=162}
+56660 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=161}
+56661 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=159}
+56663 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=158}
+56664 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=157}
+56665 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=156}
+56665 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=155}
+56666 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=168}
+56666 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=165}
+56668 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=164}
+56669 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=163}
+56670 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=146}
+56670 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=, name=test0, header=, id=145}
+56671 [Test worker] DEBUG o.h.internal.util.EntityPrinter - More......
+57782 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+57803 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
