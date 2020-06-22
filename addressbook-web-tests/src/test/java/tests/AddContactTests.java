@@ -5,6 +5,9 @@ import com.google.gson.reflect.TypeToken;
 import com.thoughtworks.xstream.XStream;
 import model.ContactData;
 import model.Contacts;
+import model.GroupData;
+import model.Groups;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -54,11 +57,19 @@ public class AddContactTests extends TestBase {
       return contacts.stream().map((g) -> new Object[]{g}).collect(Collectors.toList()).iterator();
     }
   }
+  @BeforeMethod
+  public void ensurePreconditions() {
+    if (app.db().groups().size() == 0) {
+      app.goTo().GroupPage();
+      app.group().create(new GroupData().withName("test2"));
+    }
+  }
 
-  @Test(dataProvider = "validContactsFromXml")
+  @Test(dataProvider = "validContactsFromJson")
   public void testAddContact(ContactData contact) {
     File photo = new File("src/test/resources/dog.jpg");
-    contact = contact.withPhoto(photo);
+    Groups groups = app.db().groups();
+    contact = contact.withPhoto(photo).inGroup(groups.iterator().next());
     app.goTo().HomePage();
     Contacts before = app.db().contacts();
     app.contact().create(contact, true);

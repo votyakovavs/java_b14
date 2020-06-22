@@ -11,8 +11,8 @@
     <mobile>45550</mobile>
     <work>7890</work>
     <fax>1110</fax>
-    <group>test0</group>
     <eMail>Email0</eMail>
+    <groups/>
   </contact>
   <contact>
     <firstName>Name1</firstName>
@@ -26,8 +26,8 @@
     <mobile>45551</mobile>
     <work>7891</work>
     <fax>1111</fax>
-    <group>test1</group>
     <eMail>Email1</eMail>
+    <groups/>
   </contact>
   <contact>
     <firstName>Name2</firstName>
@@ -41,7 +41,7 @@
     <mobile>45552</mobile>
     <work>7892</work>
     <fax>1112</fax>
-    <group>test2</group>
     <eMail>Email2</eMail>
+    <groups/>
   </contact>
 </list>

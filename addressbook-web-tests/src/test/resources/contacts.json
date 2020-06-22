@@ -11,7 +11,6 @@
     "mobile": "45550",
     "work": "7890",
     "fax": "1110",
-    "group": "test0",
     "eMail": "Email0"
   },
   {
@@ -26,7 +25,6 @@
     "mobile": "45551",
     "work": "7891",
     "fax": "1111",
-    "group": "test1",
     "eMail": "Email1"
   },
   {
@@ -41,7 +39,6 @@
     "mobile": "45552",
     "work": "7892",
     "fax": "1112",
-    "group": "test2",
     "eMail": "Email2"
   }
 ]
