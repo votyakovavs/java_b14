@@ -15,10 +15,9 @@ import java.util.Arrays;
 
 public class TestBase {
 
-  Logger logger = LoggerFactory.getLogger(TestBase.class);
-
   protected static final ApplicationManager app
           = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
+  Logger logger = LoggerFactory.getLogger(TestBase.class);
 
   @BeforeSuite(alwaysRun = true)
   public void setUp() throws IOException {
@@ -30,12 +29,12 @@ public class TestBase {
     app.stop();
   }
 
-  @BeforeMethod (alwaysRun = true)
+  @BeforeMethod(alwaysRun = true)
   public void logTestStart(Method m, Object[] p) {
     logger.info("Start test " + m.getName() + " with parameters " + Arrays.asList(p));
   }
 
-  @AfterMethod (alwaysRun = true)
+  @AfterMethod(alwaysRun = true)
   public void logTestEnd(Method m, Object[] p) {
     logger.info("Stop test " + m.getName() + " with parameters " + Arrays.asList(p));
   }
