@@ -18,8 +18,8 @@ public class MainPageTests extends TestBase {
 
   @BeforeMethod
   public void ensurePreconditions() {
-    app.goTo().HomePage();
-    if (app.contact().all().size() == 0) {
+    if (app.db().contacts().size() == 0) {
+      app.goTo().HomePage();
       app.contact().create(new ContactData().withFirstName("Name").withMiddleName("MiddleName").withLastName("Last").withNickName("Nick").withTitle("Title").withCompany("Company")
               .withAddress("Flat 54\n" +
                       "65B Piekna Street\n" +
@@ -31,7 +31,8 @@ public class MainPageTests extends TestBase {
 
   @Test
   public void testMainPage() {
-    Contacts before = app.contact().all();
+    app.goTo().HomePage();
+    Contacts before = app.db().contacts();
     ContactData contact = app.contact().all().iterator().next();
     ContactData contactInfoFromEditForm = app.contact().infoFromEditForm(contact);
 

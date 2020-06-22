@@ -257,12 +257,20 @@ public class ContactData {
     ContactData that = (ContactData) o;
     return Objects.equals(id, that.id) &&
             Objects.equals(firstName, that.firstName) &&
-            Objects.equals(lastName, that.lastName);
+            Objects.equals(middleName, that.middleName) &&
+            Objects.equals(lastName, that.lastName) &&
+            Objects.equals(nickName, that.nickName) &&
+            Objects.equals(company, that.company) &&
+            Objects.equals(home, that.home) &&
+            Objects.equals(mobile, that.mobile) &&
+            Objects.equals(work, that.work) &&
+            Objects.equals(fax, that.fax) &&
+            Objects.equals(eMail, that.eMail);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(id, firstName, lastName);
+    return Objects.hash(id, firstName, middleName, lastName, nickName, company, home, mobile, work, fax, eMail);
   }
 
   @Override
