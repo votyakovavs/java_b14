@@ -1,0 +1,1536 @@
+11719 [Test worker] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+14568 [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+15180 [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+15346 [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+15824 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.17.Final
+16033 [Test worker] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+22924 [Test worker] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+22924 [Test worker] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+23008 [Test worker] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+41410 [Test worker] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+44380 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+44397 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+46222 [Test worker] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+47924 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@43ea0dc6
+47924 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@43ea0dc6
+47929 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@43ea0dc6
+48155 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@85cae7a
+48168 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@61eed3d
+48187 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@2e022fed
+48264 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@7ee2208d
+48272 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@7ee2208d
+48340 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7ee2208d
+48351 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@2c4b371d
+48352 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@2c4b371d
+48352 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@2c4b371d
+48753 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@7fd245f6
+48753 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@7fd245f6
+48754 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7fd245f6
+48791 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@a85c6ad
+48791 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@a85c6ad
+48797 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@a85c6ad
+48805 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@37e69716
+48806 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@37e69716
+48806 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@37e69716
+48812 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@5262fa77
+48813 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@5262fa77
+48813 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5262fa77
+48839 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@771580aa
+48840 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@771580aa
+48842 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@771580aa
+48847 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@50ec88e0
+48848 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@50ec88e0
+48910 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@21ad56e5
+48910 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@21ad56e5
+48934 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@13bd0843
+48935 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@13bd0843
+48937 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@51b2ef56
+48943 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7ab305e9
+49002 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@7fd5e88c
+49002 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@7fd5e88c
+49027 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@2170cfce
+49027 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@2170cfce
+49188 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@319ff4b
+49189 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@319ff4b
+49244 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@5d20966e
+49244 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@5d20966e
+49263 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@40ceeec8
+49263 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@40ceeec8
+49268 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@2a0d59ea
+49270 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@2a0d59ea
+49292 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@475418e
+49294 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@475418e
+49302 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@5b6cbbfd
+49309 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@5b6cbbfd
+49517 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@28d27a25
+49517 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@28d27a25
+49555 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@fe58f2d
+49555 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@fe58f2d
+49563 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@4eb56530
+49564 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4eb56530
+49570 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@48554d79
+49571 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@48554d79
+49571 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@48554d79
+49640 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@181e6bcc
+49674 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@31b38977
+49681 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@31b38977
+49685 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@31b38977
+49688 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@6454e3d9
+49698 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@55858060
+49716 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@2f21d7e2
+49716 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2f21d7e2
+49765 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@14088aa9
+49765 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@14088aa9
+49770 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@4414722e
+49770 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4414722e
+49785 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@551baa84
+49787 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@551baa84
+49791 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7d91e729
+49792 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7d91e729
+49795 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@1f8eed3c
+49799 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@5f485e9f
+49800 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@5f485e9f
+49800 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@5f485e9f
+49806 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@7adf7b08
+49807 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@7adf7b08
+49807 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@7adf7b08
+49834 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@1b8cda34
+49836 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@31c716b2
+49840 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@6f283987
+49840 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@6f283987
+49842 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@6f283987
+49851 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@20f18e9e
+49854 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@20f18e9e
+49859 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@20f18e9e
+49864 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@65e7f878
+50007 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@6f22258e
+50115 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@7ed08ea4
+50117 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@7ed08ea4
+50122 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@374dd951
+50132 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@45be70a3
+50133 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@45be70a3
+50140 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@4945e9ee
+50142 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@4945e9ee
+50143 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@14c4bd6b
+50147 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@11bdf7b
+50166 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@349a8bb3
+50320 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@1c4ec3e9
+50320 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1c4ec3e9
+50322 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2c6585b2
+50325 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@465e5a5c
+50326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3497ced7
+50326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1983d019
+50326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@19cb9e8e
+50327 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2df3bb51
+50327 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2798294e
+50327 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@201c26bc
+51249 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+51254 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+51279 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+51293 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+51296 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+51303 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+51416 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+51438 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+51451 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+51453 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+51455 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+51457 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+51457 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+51462 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+51652 [Test worker] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+51693 [Test worker] DEBUG o.hibernate.orm.connections.pooling - No driver class specified
+51694 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [null] at URL [jdbc:mysql://localhost:3306/addressbook?useLegacyDatetimeCode=false&serverTimezone=UTC]
+51697 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=}
+51704 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+51764 [Test worker] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+51764 [Test worker] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+63874 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.4.11-MariaDB
+      major : 5
+      minor : 5
+63893 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.20 (Revision: afc0a13cd3c5a0bf57eaa809ee0ee6df1fd5ac9b)
+      major : 8
+      minor : 0
+63895 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2
+64532 [Test worker] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+65060 [Test worker] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+65208 [Test worker] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+66073 [Test worker] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+66156 [Test worker] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7a64c7df] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@76bebda4]
+67352 [Test worker] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: model.GroupData
+68695 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+68877 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData
+68914 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity model.GroupData on table group_list
+70715 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false}
+70736 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+70742 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.GroupData:id]
+70751 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+70758 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+70876 [Test worker] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(group_id)]), id, assigned, , ...)
+70878 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false}
+70878 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false
+70879 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.GroupData:footer]
+70879 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer
+70879 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer
+70886 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false}
+70886 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false
+70887 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.GroupData:header]
+70887 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header
+70888 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header
+70888 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false}
+70890 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+70891 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.GroupData:name]
+70892 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+70892 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+70906 [Test worker] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: model.ContactData
+70908 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+70909 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ContactData
+70909 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity model.ContactData on table addressbook
+71013 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=id, insertable=true, updatable=true, unique=false}
+71016 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+71018 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:id]
+71019 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+71019 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+71020 [Test worker] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+71024 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=address, insertable=true, updatable=true, unique=false}
+71025 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property address with lazy=false
+71026 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:address]
+71026 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for address
+71027 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property address
+71027 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=company, insertable=true, updatable=true, unique=false}
+71028 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property company with lazy=false
+71028 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:company]
+71029 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for company
+71029 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property company
+71029 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email, insertable=true, updatable=true, unique=false}
+71030 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property eMail with lazy=false
+71030 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:eMail]
+71031 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for eMail
+71031 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property eMail
+71035 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=eMail2, insertable=true, updatable=true, unique=false}
+71036 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property eMail2 with lazy=false
+71036 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:eMail2]
+71037 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for eMail2
+71038 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property eMail2
+71038 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=eMail3, insertable=true, updatable=true, unique=false}
+71039 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property eMail3 with lazy=false
+71039 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:eMail3]
+71040 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for eMail3
+71040 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property eMail3
+71041 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=fax, insertable=true, updatable=true, unique=false}
+71041 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property fax with lazy=false
+71042 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:fax]
+71042 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for fax
+71042 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property fax
+71044 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=firstname, insertable=true, updatable=true, unique=false}
+71044 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+71056 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:firstName]
+71056 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstName
+71056 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstName
+71057 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=home, insertable=true, updatable=true, unique=false}
+71058 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property home with lazy=false
+71058 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:home]
+71058 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for home
+71059 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property home
+71060 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=lastname, insertable=true, updatable=true, unique=false}
+71060 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+71061 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:lastName]
+71061 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for lastName
+71061 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property lastName
+71062 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=middlename, insertable=true, updatable=true, unique=false}
+71062 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property middleName with lazy=false
+71063 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:middleName]
+71064 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for middleName
+71066 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property middleName
+71067 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=mobile, insertable=true, updatable=true, unique=false}
+71068 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property mobile with lazy=false
+71068 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:mobile]
+71069 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for mobile
+71075 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property mobile
+71076 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=nickname, insertable=true, updatable=true, unique=false}
+71077 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property nickName with lazy=false
+71079 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:nickName]
+71089 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for nickName
+71091 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property nickName
+71092 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=photo, insertable=true, updatable=true, unique=false}
+71092 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property photo with lazy=false
+71093 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:photo]
+71093 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for photo
+71095 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property photo
+71120 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=title, insertable=true, updatable=true, unique=false}
+71122 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property title with lazy=false
+71122 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:title]
+71122 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for title
+71123 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property title
+71125 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=work, insertable=true, updatable=true, unique=false}
+71126 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property work with lazy=false
+71126 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.ContactData:work]
+71126 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for work
+71126 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property work
+71130 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+71131 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer
+71131 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header
+71133 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+71134 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+71135 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for address
+71135 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for company
+71135 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for eMail
+71135 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for eMail2
+71136 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for eMail3
+71136 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for fax
+71136 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstName
+71136 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for home
+71138 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for lastName
+71138 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for middleName
+71138 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for mobile
+71138 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for nickName
+71139 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for photo
+71140 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for title
+71140 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for work
+71186 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list]
+71186 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [addressbook]
+72295 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+72300 [Test worker] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+72300 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+72300 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+72300 [Test worker] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+72301 [Test worker] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+72301 [Test worker] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+72301 [Test worker] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+72301 [Test worker] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+72302 [Test worker] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+72302 [Test worker] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+72302 [Test worker] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+72303 [Test worker] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+72303 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+72304 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+72304 [Test worker] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+72305 [Test worker] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+72305 [Test worker] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+72305 [Test worker] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+72305 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+72306 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+72306 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+72306 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+72306 [Test worker] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+72306 [Test worker] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+72317 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+72317 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+72318 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+72318 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+72318 [Test worker] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+72319 [Test worker] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+72319 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+72319 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+72320 [Test worker] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+72320 [Test worker] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+72321 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : disabled
+72321 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : disabled
+72331 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : disabled
+72332 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : disabled
+75190 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+75193 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, dialect=org.hibernate.dialect.MySQL5Dialect, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, org.gradle.test.worker=1, java.class.path=C:\Users\4buhg\Documents\GitHub\java_b14\addressbook-web-tests\build\classes\java\test;C:\Users\4buhg\Documents\GitHub\java_b14\addressbook-web-tests\build\resources\test;C:\Users\4buhg\Documents\GitHub\java_b14\addressbook-web-tests\build\classes\java\main;C:\Users\4buhg\Documents\GitHub\java_b14\addressbook-web-tests\build\resources\main;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.testng\testng\7.1.0\b0bcea778fb2899aeb4014c558babea8833d180a\testng-7.1.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-java\3.141.59\e8e20b741299cb8ffedbd2925a3ab69d08b41063\selenium-java-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest\2.2\1820c0968dba3a11a1b30669bb1f01978a91dedc\hamcrest-2.2.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.beust\jcommander\1.78\a3927de9bd6f351429bcf763712c9890629d8f51\jcommander-1.78.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.thoughtworks.xstream\xstream\1.4.12\a668a33eb8d7c3ac728a3823cf4339ff762c75ca\xstream-1.4.12.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.immutables\gson\2.8.8\2b09be2b04daeb06937ad8f54e772a5a9b454539\gson-2.8.8.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.2.3\7c4f3c474fb2c041d8028740440937705ebb473a\logback-classic-1.2.3.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\8.0.20\d8d388e71c823570662a45dd33f4284141921280\mysql-connector-java-8.0.20.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.4.17.Final\3b90ecf6fe93a27a27de9671c9fb25d03ba3def7\hibernate-core-5.4.17.Final.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.inject\guice\4.1.0\faf9ee8ac09eafd1128091426dd367a8c0085d55\guice-4.1.0-no_aop.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.21\18775fdda48574784f40b47bf478ab0593f92e4d\snakeyaml-1.21.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-chrome-driver\3.141.59\67137314736c6a2f39a8aa59a562e9616ae5f77e\selenium-chrome-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-edge-driver\3.141.59\fc09c66f2d0b33b0816d770761ad1d599ef0df29\selenium-edge-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-driver\3.141.59\a99f2fe2a42747ed9809d4f62f51a9e1b336dde8\selenium-firefox-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-ie-driver\3.141.59\677b9b414a3a9bb2aeea89042a7b326edeb13a82\selenium-ie-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-opera-driver\3.141.59\6b11ed01182bfd8bb62ddeae34cf9eadd3cfc7ff\selenium-opera-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-safari-driver\3.141.59\a32b5b88f46ea4b0356079f0d2e2217543923046\selenium-safari-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-support\3.141.59\8735de5049acf0e761defc65ee5837d6541abaf5\selenium-support-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-remote-driver\3.141.59\1c79ca890c312ff9916bd95df4f0c5182ec722d8\selenium-remote-driver-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-api\3.141.59\e006ffd3aa7841e6e9125d9e6691b3a6b7592b05\selenium-api-3.141.59.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.10.10\602a3da70f603752d3ce20a9997817d8dec39b51\byte-buddy-1.10.10.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-exec\1.3\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\commons-exec-1.3.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\25.0-jre\7319c34fa5866a85b6bad445adad69d402323129\guava-25.0-jre.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.11.0\75966e05a49046ca2ae734e5626f28837a8d1e82\okhttp-3.11.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.14.0\102d7be47241d781ef95f1581d414b0943053130\okio-1.14.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\xmlpull\xmlpull\1.1.3.1\2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa\xmlpull-1.1.3.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\xpp3\xpp3_min\1.1.4c\19d4e90b43059058f6e056f794f0ea4030d60b86\xpp3_min-1.1.4c.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.5\f645ed69d595b24d4cf8b3fbb64cc505bede8829\gson-2.8.5.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.2.3\864344400c3d4d92dfeb0a305dc87d953677c03c\logback-core-1.2.3.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.6.1\d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924\protobuf-java-3.6.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.0.Final\700aeedc4a2089816621948f0379e17cbd17d5db\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.2.Final\3789d00e859632e6c6206adc0c71625559e6e3b0\jboss-logging-3.3.2.Final.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.24.0-GA\d7466fc2e3af7c023e95c510f06448ad29b225b3\javassist-3.24.0-GA.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.1.3.Final\cd56603e39eb1421560b71daa584348ecfd9e0b8\jandex-2.1.3.Final.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.5.1\3fe0bed568c62df5e89f4f174c101eab25345b6c\classmate-1.5.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.1\dd6dda9da676a54c5b36ca2806ff95ee017d8738\jaxb-runtime-2.3.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.dom4j\dom4j\2.1.3\a75914155a9f5808963170ec20653668a2ffd2fd\dom4j-2.1.3.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\aopalliance\aopalliance\1.0\235ba8b489512805ac13a8f9ea77a1ca5ebe3e8\aopalliance-1.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-compat-qual\2.0.0\fc89b03860d11d6213d0154a62bcd1c2f69b9efa\checker-compat-qual-2.0.0.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.1.3\39b109f2cd352b2d71b52a3b5a1a9850e1dc304b\error_prone_annotations-2.1.3.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.1\ed28ded51a8b1c6b112568def5f4b455e6809019\j2objc-annotations-1.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.14\775b7e22fb10026eed3f86e8dc556dfafe35f2d5\animal-sniffer-annotations-1.14.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.1\a09d2c48d3285f206fafbffe0e50619284e92126\txw2-2.3.1.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.7\c197c86ceec7318b1284bffb49b54226ca774003\istack-commons-runtime-3.0.7.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8\8cc35f73da321c29973191f2cf143d29d26a1df7\stax-ex-1.8.jar;C:\Users\4buhg\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.15\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\FastInfoset-1.2.15.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, hbm2ddl.auto=validate, user.variant=, hibernate.com.mysql.jdbc.Driver=org.h2.Driver, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Yekaterinburg, os.name=Windows 10, java.vm.specification.version=1.8, sun.java.launcher=SUN_STANDARD, user.country=RU, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_251\jre\bin, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1', sun.cpu.endian=little, user.home=C:\Users\4buhg, user.language=ru, java.specification.vendor=Oracle Corporation, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, org.gradle.native=false, java.home=C:\Program Files\Java\jdk1.8.0_251\jre, com.mysql.jdbc.Driver=org.h2.Driver, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes, hibernate.hbm2ddl.auto=validate, user.script=, connection.password=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_251-b08, user.name=Nicole, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/addressbook?useLegacyDatetimeCode=false&serverTimezone=UTC, connection.pool_size=1, file.encoding=windows-1251, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, show_sql=true, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\4buhg\AppData\Local\Temp\, java.version=1.8.0_251, user.dir=C:\Users\4buhg\Documents\GitHub\java_b14\addressbook-web-tests, os.arch=amd64, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@36c46b6c, java.library.path=C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\Git\cmd;C:\Users\4buhg\AppData\Local\Microsoft\WindowsApps;C:\Users\4buhg\AppData\Local\GitHubDesktop\bin;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.251-b08, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, hibernate.connection.pool_size=1, connection.url=jdbc:mysql://localhost:3306/addressbook?useLegacyDatetimeCode=false&serverTimezone=UTC, java.class.version=52.0}
+75647 [Test worker] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+75652 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+75653 [Test worker] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7a64c7df] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@c0fef25]
+76709 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [model.ContactData] is safe
+76710 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.ContactData
+77256 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [model.ContactData] is safe
+77256 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.ContactData
+82673 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [model.GroupData] is safe
+82673 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.GroupData
+82674 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [model.GroupData] is safe
+82674 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.GroupData
+83223 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: model.ContactData
+83223 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select id from addressbook where id =?
+83223 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select contactdat_.id, contactdat_.address as address2_0_, contactdat_.company as company3_0_, contactdat_.email as email4_0_, contactdat_.eMail2 as eMail5_0_, contactdat_.eMail3 as eMail6_0_, contactdat_.fax as fax7_0_, contactdat_.firstname as firstnam8_0_, contactdat_.home as home9_0_, contactdat_.lastname as lastnam10_0_, contactdat_.middlename as middlen11_0_, contactdat_.mobile as mobile12_0_, contactdat_.nickname as nicknam13_0_, contactdat_.photo as photo14_0_, contactdat_.title as title15_0_, contactdat_.work as work16_0_ from addressbook contactdat_ where contactdat_.id=?
+83225 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into addressbook (address, company, email, eMail2, eMail3, fax, firstname, home, lastname, middlename, mobile, nickname, photo, title, work, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+83225 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update addressbook set address=?, company=?, email=?, eMail2=?, eMail3=?, fax=?, firstname=?, home=?, lastname=?, middlename=?, mobile=?, nickname=?, photo=?, title=?, work=? where id=?
+83225 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from addressbook where id=?
+83612 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5f202577]
+83617 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : address
+83617 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : company
+83617 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : eMail
+83617 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : eMail2
+83617 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : eMail3
+83617 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : fax
+83617 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstName
+83618 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : home
+83618 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastName
+83618 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middleName
+83618 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobile
+83618 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickName
+83619 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+83619 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title
+83619 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : work
+83620 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+83774 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+83825 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=model.ContactData, querySpaceUid=<gen:0>, path=model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+83866 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity model.ContactData [NONE]: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.company as company3_0_0_, contactdat0_.email as email4_0_0_, contactdat0_.eMail2 as eMail5_0_0_, contactdat0_.eMail3 as eMail6_0_0_, contactdat0_.fax as fax7_0_0_, contactdat0_.firstname as firstnam8_0_0_, contactdat0_.home as home9_0_0_, contactdat0_.lastname as lastnam10_0_0_, contactdat0_.middlename as middlen11_0_0_, contactdat0_.mobile as mobile12_0_0_, contactdat0_.nickname as nicknam13_0_0_, contactdat0_.photo as photo14_0_0_, contactdat0_.title as title15_0_0_, contactdat0_.work as work16_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+83866 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1753d502]
+83867 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : address
+83867 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : company
+83867 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : eMail
+83867 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : eMail2
+83868 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : eMail3
+83868 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : fax
+83868 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstName
+83868 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : home
+83868 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastName
+83870 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middleName
+83879 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobile
+83879 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickName
+83880 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+83881 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title
+83881 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : work
+83881 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+83887 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+83889 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=model.ContactData, querySpaceUid=<gen:0>, path=model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+83896 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity model.ContactData [READ]: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.company as company3_0_0_, contactdat0_.email as email4_0_0_, contactdat0_.eMail2 as eMail5_0_0_, contactdat0_.eMail3 as eMail6_0_0_, contactdat0_.fax as fax7_0_0_, contactdat0_.firstname as firstnam8_0_0_, contactdat0_.home as home9_0_0_, contactdat0_.lastname as lastnam10_0_0_, contactdat0_.middlename as middlen11_0_0_, contactdat0_.mobile as mobile12_0_0_, contactdat0_.nickname as nicknam13_0_0_, contactdat0_.photo as photo14_0_0_, contactdat0_.title as title15_0_0_, contactdat0_.work as work16_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+84159 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity model.ContactData: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.company as company3_0_0_, contactdat0_.email as email4_0_0_, contactdat0_.eMail2 as eMail5_0_0_, contactdat0_.eMail3 as eMail6_0_0_, contactdat0_.fax as fax7_0_0_, contactdat0_.firstname as firstnam8_0_0_, contactdat0_.home as home9_0_0_, contactdat0_.lastname as lastnam10_0_0_, contactdat0_.middlename as middlen11_0_0_, contactdat0_.mobile as mobile12_0_0_, contactdat0_.nickname as nicknam13_0_0_, contactdat0_.photo as photo14_0_0_, contactdat0_.title as title15_0_0_, contactdat0_.work as work16_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+84163 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity model.ContactData: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.company as company3_0_0_, contactdat0_.email as email4_0_0_, contactdat0_.eMail2 as eMail5_0_0_, contactdat0_.eMail3 as eMail6_0_0_, contactdat0_.fax as fax7_0_0_, contactdat0_.firstname as firstnam8_0_0_, contactdat0_.home as home9_0_0_, contactdat0_.lastname as lastnam10_0_0_, contactdat0_.middlename as middlen11_0_0_, contactdat0_.mobile as mobile12_0_0_, contactdat0_.nickname as nicknam13_0_0_, contactdat0_.photo as photo14_0_0_, contactdat0_.title as title15_0_0_, contactdat0_.work as work16_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+84165 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: model.GroupData
+84165 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select group_id from group_list where group_id =?
+84166 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select groupdata_.group_id, groupdata_.group_footer as group_fo2_1_, groupdata_.group_header as group_he3_1_, groupdata_.group_name as group_na4_1_ from group_list groupdata_ where groupdata_.group_id=?
+84166 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into group_list (group_footer, group_header, group_name, group_id) values (?, ?, ?, ?)
+84166 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update group_list set group_footer=?, group_header=?, group_name=? where group_id=?
+84166 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from group_list where group_id=?
+84166 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@42ffc07b]
+84167 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+84167 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+84168 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+84171 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+84172 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+84206 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=model.GroupData, querySpaceUid=<gen:0>, path=model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+84206 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity model.GroupData [NONE]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+84207 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5e1a33ac]
+84207 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+84207 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+84207 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+84208 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+84208 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+84214 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=model.GroupData, querySpaceUid=<gen:0>, path=model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+84216 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity model.GroupData [READ]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+84217 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity model.GroupData: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+84218 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity model.GroupData: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+85450 [Test worker] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5b71abc0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+89352 [Test worker] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+89368 [Test worker] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+89461 [Test worker] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+89462 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+89530 [Test worker] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+89530 [Test worker] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+89822 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@24cc0df6
+89887 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: c14c9231-9393-4078-b8fb-020eabbe6b9c (<unnamed>)
+89887 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+93870 [Hibernate Connection Pool Validation Thread] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Connection pool now considered primed; min-size will be maintained
+195038 [Test worker] INFO  tests.TestBase - Start test tesGroupModification with parameters []
+202256 [Test worker] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+202396 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+202396 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+203532 [Test worker] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@63cf156b
+204406 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from model.GroupData
+204970 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+205183 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'from'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[IDENT] Node: 'model'
+                \-[IDENT] Node: 'GroupData'
+
+205657 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+205709 [Test worker] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : model.GroupData (<no alias>) -> groupdata0_
+205709 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+205709 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} group_list groupdata0_ ) )
+205728 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+205969 [Test worker] DEBUG o.h.h.i.ast.util.JoinProcessor - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity GroupData): [group_list]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(model.GroupData)
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+206026 [Test worker] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [group_list groupdata0_]
+206027 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+206028 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (group_list)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'groupdata0_.group_id as group_id1_1_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=model.GroupData}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[groupdata0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'group_list groupdata0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=model.GroupData}}
+
+206028 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+206049 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from model.GroupData
+206050 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
+206050 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+206922 [Test worker] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
+208515 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+208636 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#145]
+208806 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+208806 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#146]
+208812 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+208813 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#147]
+208817 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
+208817 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#148]
+208819 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
+208820 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#149]
+208830 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
+208831 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#150]
+208831 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
+208832 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#151]
+208832 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
+208833 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#152]
+208834 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
+208834 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#153]
+208835 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
+208835 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#154]
+208836 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 10
+208836 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#155]
+208837 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 11
+208838 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#156]
+208838 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 12
+208839 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#157]
+208840 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 13
+208842 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#158]
+208847 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 14
+208848 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#159]
+208850 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 15
+208851 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#161]
+208853 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 16
+208854 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#162]
+208855 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 17
+208855 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#164]
+208856 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 18
+208856 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#165]
+208859 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 19
+208860 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#172]
+208861 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 20
+208861 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#174]
+208862 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 21
+208865 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#175]
+208866 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 22
+208867 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#176]
+208867 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 23
+208868 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#177]
+208868 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 24
+208869 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#178]
+208870 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 25
+208870 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#179]
+208876 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 26
+208876 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#180]
+208877 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 27
+208878 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#182]
+208879 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 28
+208879 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#184]
+208880 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 29
+208880 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#185]
+208881 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 30
+208881 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#186]
+209059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#145]
+209117 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = 
+209117 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209117 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = 
+209118 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209119 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+209119 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209131 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#145]
+209131 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#146]
+209131 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+209131 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209131 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+209131 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209132 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+209132 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209132 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#146]
+209132 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#147]
+209132 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+209132 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209132 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+209132 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209133 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+209133 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209133 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#147]
+209134 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#148]
+209134 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+209134 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209134 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+209134 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209134 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209134 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209134 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#148]
+209135 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#149]
+209135 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+209135 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209135 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+209135 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209135 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209135 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209135 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#149]
+209136 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#150]
+209136 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+209136 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209136 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+209136 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209136 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+209136 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209137 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#150]
+209138 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#151]
+209139 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+209139 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209139 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+209139 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209139 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209139 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209139 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#151]
+209140 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#152]
+209140 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+209142 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209142 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+209142 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209143 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+209143 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209143 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#152]
+209143 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#153]
+209144 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+209144 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209144 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+209144 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209144 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209144 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209144 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#153]
+209145 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#154]
+209145 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+209145 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209145 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+209145 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209145 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+209145 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209146 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#154]
+209146 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#155]
+209146 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+209146 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209146 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+209146 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209146 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+209147 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209147 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#155]
+209147 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#156]
+209147 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+209147 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209147 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+209147 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209147 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209148 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209148 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#156]
+209148 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#157]
+209148 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+209148 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209148 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+209148 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209149 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+209149 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209149 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#157]
+209149 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#158]
+209149 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+209149 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209149 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+209149 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209150 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+209150 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209150 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#158]
+209150 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#159]
+209150 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+209150 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209150 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+209150 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209151 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209151 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209152 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#159]
+209152 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#161]
+209152 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+209152 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209152 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+209152 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209152 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209152 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209153 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#161]
+209153 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#162]
+209153 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+209153 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209153 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+209153 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209163 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209163 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209163 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#162]
+209163 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#164]
+209164 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+209165 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209165 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+209165 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209165 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+209165 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209165 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#164]
+209165 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#165]
+209165 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+209166 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209166 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+209166 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209166 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209166 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209167 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#165]
+209167 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#172]
+209167 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+209167 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209168 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+209168 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209168 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209168 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209168 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#172]
+209168 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#174]
+209168 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+209168 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209168 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+209169 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209169 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209169 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209169 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#174]
+209169 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#175]
+209169 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+209169 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209169 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+209169 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209170 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+209170 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209170 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#175]
+209170 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#176]
+209170 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+209170 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209170 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+209170 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209170 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+209171 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209171 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#176]
+209171 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#177]
+209185 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+209185 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209185 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+209185 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209230 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209230 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209230 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#177]
+209230 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#178]
+209230 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+209231 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209231 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+209231 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209231 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+209231 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209231 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#178]
+209231 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#179]
+209232 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+209232 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209232 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+209233 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209234 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+209234 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209234 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#179]
+209234 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#180]
+209234 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+209234 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209235 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+209235 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209235 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209235 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209235 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#180]
+209235 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#182]
+209235 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+209235 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209237 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+209237 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209237 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209237 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209238 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#182]
+209238 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#184]
+209238 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+209238 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209238 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+209238 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209238 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+209240 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209242 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#184]
+209243 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#185]
+209243 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+209243 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209243 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+209244 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209244 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+209244 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209245 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#185]
+209245 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#186]
+209245 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+209245 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+209245 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+209245 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+209245 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+209245 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+209246 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#186]
+209373 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+209375 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+209428 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+209931 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 31 objects
+209933 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+210088 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+210090 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=154}
+210090 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=153}
+210090 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=152}
+210091 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=151}
+210091 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=150}
+210091 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=149}
+210091 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=148}
+210092 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=147}
+210092 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=162}
+210092 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=161}
+210092 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=159}
+210093 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=158}
+210093 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=157}
+210094 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=156}
+210095 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=155}
+210095 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=146}
+210095 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=, name=test0, header=, id=145}
+210095 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=186}
+210096 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=185}
+210096 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=184}
+210096 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=182}
+210097 [Test worker] DEBUG o.h.internal.util.EntityPrinter - More......
+210189 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+210196 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+210435 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+210435 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+210449 [Test worker] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
+210492 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+210493 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#145]
+210494 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+210494 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#146]
+210495 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+210495 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#147]
+210496 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
+210496 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#148]
+210497 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
+210497 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#149]
+210498 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
+210498 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#150]
+210499 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
+210499 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#151]
+210500 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
+210500 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#152]
+210501 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
+210501 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#153]
+210502 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
+210503 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#154]
+210503 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 10
+210504 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#155]
+210504 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 11
+210505 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#156]
+210506 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 12
+210512 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#157]
+210518 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 13
+210518 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#158]
+210533 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 14
+210536 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#159]
+210537 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 15
+210550 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#161]
+210551 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 16
+210553 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#162]
+210553 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 17
+210554 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#164]
+210555 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 18
+210555 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#165]
+210564 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 19
+210565 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#172]
+210566 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 20
+210567 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#174]
+210567 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 21
+210568 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#175]
+210569 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 22
+210569 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#176]
+210570 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 23
+210571 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#177]
+210586 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 24
+210587 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#178]
+210587 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 25
+210588 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#179]
+210588 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 26
+210588 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#180]
+210600 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 27
+210601 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#182]
+210601 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 28
+210602 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#184]
+210602 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 29
+210602 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#185]
+210603 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 30
+210604 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#186]
+210604 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#145]
+210605 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = 
+210605 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210605 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = 
+210605 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210609 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+210610 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210611 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#145]
+210612 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#146]
+210612 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+210612 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210612 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+210614 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210614 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+210614 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210616 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#146]
+210618 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#147]
+210618 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+210619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+210619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+210619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#147]
+210620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#148]
+210620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+210621 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210622 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+210624 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210624 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210624 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210625 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#148]
+210625 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#149]
+210625 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+210625 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210626 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+210626 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210626 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210626 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210627 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#149]
+210627 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#150]
+210628 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+210629 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210629 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+210630 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210630 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+210630 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210631 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#150]
+210634 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#151]
+210634 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+210634 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210634 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+210634 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210635 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210635 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210635 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#151]
+210638 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#152]
+210638 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+210645 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210646 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+210646 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210646 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+210646 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210648 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#152]
+210648 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#153]
+210648 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+210652 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210652 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+210652 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210652 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210653 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210653 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#153]
+210653 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#154]
+210653 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+210653 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210654 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+210654 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210654 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+210654 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210654 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#154]
+210655 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#155]
+210655 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+210655 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210655 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+210670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+210671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#155]
+210671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#156]
+210671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+210672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+210679 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210697 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210697 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210697 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#156]
+210698 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#157]
+210698 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+210698 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210698 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+210698 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210698 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+210698 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210698 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#157]
+210699 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#158]
+210699 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+210699 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210699 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+210699 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210699 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+210699 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210699 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#158]
+210700 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#159]
+210700 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+210700 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210700 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+210700 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210700 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210700 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210700 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#159]
+210701 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#161]
+210701 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+210701 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210701 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+210701 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210701 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210701 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210701 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#161]
+210701 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#162]
+210702 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+210702 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210702 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+210702 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210702 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210702 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210702 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#162]
+210702 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#164]
+210702 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+210703 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210703 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+210703 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210703 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+210703 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210703 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#164]
+210703 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#165]
+210703 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+210703 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210704 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+210704 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210704 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210704 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210704 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#165]
+210704 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#172]
+210704 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+210704 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210704 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+210705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#172]
+210705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#174]
+210705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+210709 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+210711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210712 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#174]
+210714 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#175]
+210714 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+210714 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210714 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+210714 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210715 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+210715 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210715 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#175]
+210715 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#176]
+210715 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+210716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+210716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+210716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#176]
+210717 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#177]
+210717 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+210717 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210717 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+210717 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210717 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210718 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210718 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#177]
+210718 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#178]
+210718 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+210718 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210718 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+210718 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210719 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+210719 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210719 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#178]
+210719 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#179]
+210719 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+210720 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210720 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+210720 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210720 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+210720 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210720 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#179]
+210721 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#180]
+210721 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+210721 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210721 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+210721 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210721 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210721 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210721 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#180]
+210722 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#182]
+210722 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+210722 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210726 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+210726 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210726 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210726 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210726 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#182]
+210727 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#184]
+210727 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+210728 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210728 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+210728 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210728 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+210728 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210728 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#184]
+210728 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#185]
+210728 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+210728 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210729 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+210729 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210729 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+210729 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210729 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#185]
+210729 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#186]
+210729 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+210729 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+210729 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+210729 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+210729 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+210730 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+210730 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#186]
+210732 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+210732 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+210733 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+210745 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 31 objects
+210745 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+210745 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+210745 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=154}
+210745 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=153}
+210745 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=152}
+210745 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=151}
+210746 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=150}
+210746 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=149}
+210746 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=148}
+210746 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=147}
+210746 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=162}
+210746 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=161}
+210746 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=159}
+210746 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=158}
+210746 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=157}
+210747 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=156}
+210747 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=155}
+210747 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=146}
+210747 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=, name=test0, header=, id=145}
+210747 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=186}
+210747 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=185}
+210747 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=184}
+210747 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=182}
+210749 [Test worker] DEBUG o.h.internal.util.EntityPrinter - More......
+210763 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+210765 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+246618 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+246619 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+246620 [Test worker] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
+246641 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+246641 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#145]
+246642 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+246642 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#146]
+246643 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+246643 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#147]
+246644 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
+246644 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#148]
+246645 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
+246645 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#149]
+246645 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
+246646 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#150]
+246646 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
+246646 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#151]
+246647 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
+246647 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#152]
+246647 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
+246648 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#153]
+246648 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
+246648 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#154]
+246649 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 10
+246649 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#155]
+246649 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 11
+246650 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#156]
+246650 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 12
+246650 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#157]
+246651 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 13
+246651 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#158]
+246651 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 14
+246651 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#159]
+246652 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 15
+246652 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#161]
+246652 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 16
+246653 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#162]
+246653 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 17
+246653 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#164]
+246653 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 18
+246654 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#165]
+246654 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 19
+246654 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#172]
+246654 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 20
+246655 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#174]
+246655 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 21
+246655 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#175]
+246656 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 22
+246656 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#176]
+246656 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 23
+246656 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#177]
+246657 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 24
+246657 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#178]
+246658 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 25
+246658 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#179]
+246658 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 26
+246659 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#180]
+246659 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 27
+246659 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#182]
+246659 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 28
+246659 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#184]
+246660 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 29
+246660 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#185]
+246660 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 30
+246660 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[model.GroupData#186]
+246661 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#145]
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = 
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = 
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#145]
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#146]
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246662 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246663 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246663 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#146]
+246663 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#147]
+246663 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+246663 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246663 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+246663 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246663 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+246663 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246663 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#147]
+246663 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#148]
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#148]
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#149]
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246664 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246665 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246665 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#149]
+246665 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#150]
+246665 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+246665 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246665 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+246665 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246665 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+246665 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246666 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#150]
+246666 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#151]
+246666 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+246666 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246666 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+246666 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246666 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246666 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246666 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#151]
+246666 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#152]
+246666 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+246667 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246667 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+246667 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246668 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+246668 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246668 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#152]
+246668 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#153]
+246668 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+246668 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246668 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#153]
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#154]
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#154]
+246669 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#155]
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#155]
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#156]
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246670 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#156]
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#157]
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#157]
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#158]
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+246671 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+246672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#158]
+246672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#159]
+246672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+246672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+246672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246672 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246673 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#159]
+246673 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#161]
+246712 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+246712 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246712 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+246712 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246712 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246712 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246712 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#161]
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#162]
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#162]
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#164]
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+246713 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+246716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#164]
+246716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#165]
+246716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+246716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+246716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246716 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246718 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#165]
+246722 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#172]
+246722 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+246722 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246722 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+246722 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246722 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246722 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246722 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#172]
+246723 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#174]
+246723 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+246723 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246723 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+246723 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246723 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246723 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246723 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#174]
+246723 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#175]
+246724 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+246724 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246724 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+246724 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246724 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+246724 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246725 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#175]
+246725 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#176]
+246725 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+246725 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246725 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+246725 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246725 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+246726 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246726 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#176]
+246726 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#177]
+246726 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+246727 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246739 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+246739 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246739 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246739 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246740 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#177]
+246740 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#178]
+246740 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+246740 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246740 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+246740 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246740 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+246740 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246741 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#178]
+246741 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#179]
+246741 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+246741 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246741 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+246741 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246741 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+246742 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246742 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#179]
+246763 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#180]
+246763 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+246763 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246764 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+246764 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246764 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246764 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246764 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#180]
+246764 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#182]
+246764 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test
+246764 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246765 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test
+246765 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246765 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246765 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246765 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#182]
+246782 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#184]
+246787 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer0
+246787 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246787 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header0
+246787 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246787 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0
+246788 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246788 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#184]
+246788 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#185]
+246788 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+246788 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246788 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+246788 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246788 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+246788 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246788 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#185]
+246789 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [model.GroupData#186]
+246789 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+246789 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+246789 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+246789 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+246789 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+246789 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+246838 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [model.GroupData#186]
+246839 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+246839 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+246840 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+246847 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 31 objects
+246847 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+246847 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+246848 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=154}
+246848 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=153}
+246848 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=152}
+246848 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=151}
+246850 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=150}
+246850 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=149}
+246850 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=148}
+246850 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=147}
+246850 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=162}
+246850 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=161}
+246850 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=159}
+246850 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=158}
+246851 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=157}
+246851 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=156}
+246851 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=155}
+246851 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=146}
+246851 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=, name=test0, header=, id=145}
+246852 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer2, name=test2, header=header2, id=186}
+246852 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer1, name=test1, header=header1, id=185}
+246852 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=footer0, name=test0, header=header0, id=184}
+246852 [Test worker] DEBUG o.h.internal.util.EntityPrinter - model.GroupData{footer=test, name=test2, header=test, id=182}
+246852 [Test worker] DEBUG o.h.internal.util.EntityPrinter - More......
+246853 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+246854 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+246864 [Test worker] INFO  tests.TestBase - Stop test tesGroupModification with parameters []
