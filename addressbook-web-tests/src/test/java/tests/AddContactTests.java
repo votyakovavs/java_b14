@@ -57,11 +57,12 @@ public class AddContactTests extends TestBase {
       return contacts.stream().map((g) -> new Object[]{g}).collect(Collectors.toList()).iterator();
     }
   }
+
   @BeforeMethod
   public void ensurePreconditions() {
     if (app.db().groups().size() == 0) {
       app.goTo().GroupPage();
-      app.group().create(new GroupData().withName("test2"));
+      app.group().create(new GroupData().withName("test2000"));
     }
   }
 

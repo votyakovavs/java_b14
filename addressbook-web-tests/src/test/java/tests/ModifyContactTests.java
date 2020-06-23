@@ -21,7 +21,7 @@ public class ModifyContactTests extends TestBase {
       Groups groups = app.db().groups();
       if (groups.size() == 0) {
         app.goTo().GroupPage();
-        app.group().create(new GroupData().withName("test2"));
+        app.group().create(new GroupData().withName("test5955"));
       }
       app.contact().create(new ContactData().withFirstName("Name").withMiddleName("MiddleName").withLastName("Last").withNickName("Nick").withTitle("Title").withCompany("Company")
               .withAddress("Flat 54\n" +

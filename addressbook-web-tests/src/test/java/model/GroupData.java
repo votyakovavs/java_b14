@@ -30,8 +30,8 @@ public class GroupData {
   @Type(type = "text")
   private String footer;
 
-  @ManyToMany (mappedBy = "groups")
-  private Set<ContactData> contacts  = new HashSet<ContactData>();
+  @ManyToMany(mappedBy = "groups")
+  private final Set<ContactData> contacts = new HashSet<ContactData>();
 
   public Contacts getContacts() {
     return new Contacts(contacts);

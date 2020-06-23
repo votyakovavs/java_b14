@@ -6,6 +6,8 @@
             <class name="tests.AddContactTests"/>
             <class name="tests.ContactDeletionTests"/>
             <class name="tests.ModifyContactTests"/>
+            <class name="tests.AddContactToGroupTests"></class>
+            <class name="tests.DeleteContactFromGroupTests"></class>
         </classes>
     </test>
 </suite>
