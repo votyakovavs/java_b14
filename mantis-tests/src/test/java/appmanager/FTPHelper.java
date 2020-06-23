@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class FTPHelper {
   private final ApplicationManager app;
-  private FTPClient ftp;
+  private final FTPClient ftp;
 
   public FTPHelper(ApplicationManager app) {
     this.app = app;

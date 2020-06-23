@@ -1,0 +1,57 @@
+1263 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: AUTH
+1272 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: DATA
+1272 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: EHLO
+1273 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: HELO
+1273 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: HELP
+1273 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: MAIL
+1273 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: NOOP
+1273 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: QUIT
+1274 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: RCPT
+1274 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: RSET
+1275 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: STARTTLS
+1275 [Test worker] DEBUG o.s.smtp.server.CommandHandler - Added command: VRFY
+1275 [Test worker] INFO  o.s.smtp.server.SMTPServer - SMTP server *:25 starting
+1328 [org.subethamail.smtp.server.ServerThread *:25] INFO  o.s.smtp.server.ServerThread - SMTP server *:25 started
+39214 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - SMTP connection from 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1, new connection count: 1
+39216 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Server: 220 192.168.1.5 ESMTP SubEthaSMTP 3.1.7
+39225 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Client: EHLO localhost
+39227 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Server: 250-192.168.1.5
+250-8BITMIME
+250 Ok
+39233 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Client: MAIL FROM:<admin@example.com>
+39430 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Server: 250 Ok
+39439 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Client: RCPT TO:<user1592930750372@localhost.localdomain>
+39439 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.wiser.Wiser - Accepting mail from admin@example.com to user1592930750372@localhost.localdomain
+39440 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Server: 250 Ok
+39442 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Client: DATA
+39442 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Server: 354 End data with <CR><LF>.<CR><LF>
+39520 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.wiser.Wiser - Delivering mail from admin@example.com to user1592930750372@localhost.localdomain
+39543 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.wiser.Wiser - Creating message from data with 2772 bytes
+39547 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Server: 250 Ok
+39572 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Client: RSET
+39573 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Server: 250 Ok
+39733 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Client: QUIT
+39733 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59226] DEBUG org.subethamail.smtp.server.Session - Server: 221 Bye
+39770 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - SMTP connection from 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1, new connection count: 1
+39771 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Server: 220 192.168.1.5 ESMTP SubEthaSMTP 3.1.7
+39775 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Client: EHLO localhost
+39776 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Server: 250-192.168.1.5
+250-8BITMIME
+250 Ok
+39787 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Client: MAIL FROM:<admin@example.com>
+39787 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Server: 250 Ok
+39793 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Client: RCPT TO:<root@localhost>
+39794 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.wiser.Wiser - Accepting mail from admin@example.com to root@localhost
+39794 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Server: 250 Ok
+39798 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Client: DATA
+39798 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Server: 354 End data with <CR><LF>.<CR><LF>
+39814 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.wiser.Wiser - Delivering mail from admin@example.com to root@localhost
+39815 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.wiser.Wiser - Creating message from data with 867 bytes
+39815 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Server: 250 Ok
+39817 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Client: RSET
+39817 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Server: 250 Ok
+39893 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Client: QUIT
+39893 [org.subethamail.smtp.server.Session-/0:0:0:0:0:0:0:1:59227] DEBUG org.subethamail.smtp.server.Session - Server: 221 Bye
+56645 [Test worker] INFO  o.s.smtp.server.SMTPServer - SMTP server *:25 stopping
+56648 [org.subethamail.smtp.server.ServerThread *:25] INFO  o.s.smtp.server.ServerThread - SMTP server *:25 stopped
+56651 [Test worker] DEBUG o.s.smtp.server.ServerThread - SMTP Server socket shut down
