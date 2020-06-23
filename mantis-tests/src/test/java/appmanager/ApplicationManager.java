@@ -11,13 +11,13 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-import java.util.regex.MatchResult;
 
 public class ApplicationManager {
   private final String browser;
   private final Properties properties;
   private WebDriver wd;
   private RegistrationHelper registrationHelper;
+  private FTPHelper ftp;
 
   public ApplicationManager(String browser) {
     this.browser = browser;
@@ -48,6 +48,13 @@ public class ApplicationManager {
       registrationHelper = new RegistrationHelper(this);
     }
     return registrationHelper;
+  }
+
+  public FTPHelper ftp() {
+    if (ftp == null) {
+      ftp = new FTPHelper(this);
+    }
+    return ftp;
   }
 
   public WebDriver getDriver() {
