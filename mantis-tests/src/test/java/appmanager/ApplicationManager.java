@@ -1,6 +1,5 @@
 package appmanager;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -39,9 +38,14 @@ public class ApplicationManager {
   }
 
   public void stop() {
-    wd.findElement(By.linkText("Logout")).click();
-    wd.findElement(By.name("user"));
     wd.quit();
   }
 
+  public HttpSession newSession() {
+    return new HttpSession(this);
+  }
+
+  public String getProperty(String key) {
+    return properties.getProperty(key);
+  }
 }
