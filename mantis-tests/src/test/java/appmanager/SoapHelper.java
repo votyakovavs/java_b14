@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 public class SoapHelper {
 
-  private ApplicationManager app;
+  private final ApplicationManager app;
 
   public SoapHelper(ApplicationManager app) {
     this.app = app;
@@ -31,19 +31,19 @@ public class SoapHelper {
 
   private MantisConnectPortType getMantisConnect() throws ServiceException, MalformedURLException {
     return new MantisConnectLocator()
-            .getMantisConnectPort(new URL("http://localhost/mantisbt-2.24.1/api/soap/mantisconnect.php"));
+            .getMantisConnectPort(new URL(app.getProperty("web.mantisConnectUrl")));
   }
 
   public Issue addIssue(Issue issue) throws MalformedURLException, ServiceException, RemoteException {
     MantisConnectPortType mc = getMantisConnect();
-    String[] categories = mc.mc_project_get_categories("administrator", "root", BigInteger.valueOf(issue.getProject().getId()));
+    String[] categories = mc.mc_project_get_categories(app.getProperty("web.adminLogin"), app.getProperty("web.adminPass"), BigInteger.valueOf(issue.getProject().getId()));
     IssueData issueData = new IssueData();
     issueData.setSummary(issue.getSummary());
     issueData.setDescription(issue.getDescription());
     issueData.setProject(new ObjectRef(BigInteger.valueOf(issue.getProject().getId()), issue.getProject().getName()));
     issueData.setCategory(categories[0]);
-    BigInteger issueId = mc.mc_issue_add("administrator", "root", issueData);
-    IssueData createdIssueData = mc.mc_issue_get("administrator", "root", issueId);
+    BigInteger issueId = mc.mc_issue_add(app.getProperty("web.adminLogin"), app.getProperty("web.adminPass"), issueData);
+    IssueData createdIssueData = mc.mc_issue_get(app.getProperty("web.adminLogin"), app.getProperty("web.adminPass"), issueId);
     return new Issue().withId(createdIssueData.getId().intValue())
             .withSummary(createdIssueData.getSummary()).withDescription(createdIssueData.getDescription())
             .withProject(new Project().withId(createdIssueData.getProject().getId().intValue())
