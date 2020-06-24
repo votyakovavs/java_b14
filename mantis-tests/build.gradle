@@ -12,6 +12,18 @@ dependencies {
     implementation 'org.subethamail:subethasmtp:3.1.7'
     implementation 'ru.lanwen.verbalregex:java-verbal-expressions:1.6'
     compile 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'org.hibernate:hibernate-core:5.4.14.Final'
+    compile 'com.thoughtworks.xstream:xstream:1.4.8'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'mysql:mysql-connector-java:8.0.19'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(Test) {
+    systemProperty "file.encoding", "UTF-8"
 }
 
 test {
