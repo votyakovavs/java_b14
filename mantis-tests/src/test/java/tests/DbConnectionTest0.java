@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.sql.*;
 
-public class DbConnectionTest {
+public class DbConnectionTest0 {
 
   @Test
   public void testDbConnection() {
