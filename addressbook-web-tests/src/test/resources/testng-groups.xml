@@ -3,8 +3,6 @@
 <suite name="SuiteGroups" verbose="1" >
     <test name="Groups" >
         <classes>
-            <class name="tests.GroupCreationTests" />
-            <class name="tests.GroupDeletionTests" />
             <class name="tests.GroupModificationTests" />
         </classes>
     </test>
